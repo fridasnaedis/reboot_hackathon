@@ -1,0 +1,30 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  background-color: green;
+  height: 500px;
+}
+
+.register .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.register .form fieldset {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .register .form {
+    width: 70%;
+    max-width: 1200px;
+  }
+}

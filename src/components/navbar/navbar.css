@@ -1,0 +1,30 @@
+.navbar {
+  background-color: forestgreen;
+  height: 40px;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .navbar--item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.navbar .navbar__left {
+  padding-left: 20px;
+}
+
+.navbar .navbar__right {
+  justify-content: flex-end;
+
+  padding-right: 20px;
+}

@@ -9,7 +9,6 @@ class Banner extends Component {
 
   componentDidMount() {
     setInterval(() => {
-      console.log(this.state.duration.seconds());
       this.setState({
         duration: moment.duration(
           this.state.duration.asSeconds() - 1,

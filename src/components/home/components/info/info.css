@@ -1,19 +1,26 @@
 .info {
+  width: 100%;
+}
+
+.info .container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
-.info .card {
+.info .container .card {
   width: 30%;
 }
 
 @media screen and (min-width: 600px) {
-  .info {
+  .info .container {
     flex-direction: row;
     justify-content: space-around;
+
+    width: 70%;
+    max-width: 1200px;
   }
 }

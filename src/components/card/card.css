@@ -6,11 +6,11 @@
   border: 1px solid black;
 }
 
-.card__image {
-  height: 100px;
+.card .card__image {
+  height: 150px;
   background-color: pink;
 }
 
-.card__text {
-  height: 100px;
+.card .card__text {
+  height: 150px;
 }

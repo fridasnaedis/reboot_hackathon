@@ -1,0 +1,21 @@
+.detail {
+  width: 100%;
+  background-color: aqua;
+  height: 500px;
+}
+
+.detail .container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .detail .container {
+    width: 70%;
+    max-width: 1200px;
+  }
+}

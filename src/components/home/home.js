@@ -1,16 +1,20 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import Banner from "./components/banner";
 import Intro from "./components/intro";
 import Info from "./components/info";
+import Detail from "./components/detail";
+import Register from "./components/register";
 
 class Home extends Component {
   render() {
     return (
-      <Fragment>
+      <div>
         <Banner />
         <Intro />
         <Info />
-      </Fragment>
+        <Detail />
+        <Register />
+      </div>
     );
   }
 }
