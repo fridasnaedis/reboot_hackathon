@@ -7,7 +7,7 @@ class Intro extends Component {
       <div className="intro">
         <div className="inner">
           <div className="content">
-            <h1>Reboot Hack</h1>
+            <h1>Big Reboot Hack logo here</h1>
           </div>
         </div>
       </div>
