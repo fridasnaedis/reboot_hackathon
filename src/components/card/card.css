@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  border: 1px solid black;
+}
+
+.card__image {
+  height: 100px;
+  background-color: pink;
+}
+
+.card__text {
+  height: 100px;
+}

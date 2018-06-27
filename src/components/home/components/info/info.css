@@ -1,0 +1,19 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 20px 0;
+}
+
+.info .card {
+  width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  .info {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
