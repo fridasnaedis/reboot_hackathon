@@ -1,19 +1,27 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import Card from "./../../../card";
 import "./info.css";
 
 class Info extends Component {
   render() {
+    const { info } = this.props.translations.home;
     return (
       <div className="info">
         <div className="container">
-          <Card text="Hvernig hugmyndin kom upp" />
-          <Card text="Hvað er" />
-          <Card text="um reboot hack: afhverju nafnið og þá hugmyndin á bak við Reboot" />
+          <Card text={info.first} />
+          <Card text={info.second} />
+          <Card text={info.third} />
         </div>
       </div>
     );
   }
 }
 
-export default Info;
+const mapStateToProps = state => {
+  return {
+    translations: state.localization.translations,
+  };
+};
+
+export default connect(mapStateToProps)(Info);

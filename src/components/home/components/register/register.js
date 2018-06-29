@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form, Text } from "informed";
-import './register.css';
+import { connect } from "react-redux";
+import "./register.css";
 
 class Register extends Component {
   constructor(props) {
@@ -20,20 +21,19 @@ class Register extends Component {
   }
 
   render() {
+    const { register } = this.props.translations.home;
     return (
       <div className="register">
         <Form className="form" getApi={this.setFormApi}>
-        <fieldset>
-
-          <label htmlFor="name">Name:</label>
-          <Text field="name" id="name" />
-        </fieldset>
-        <fieldset>
-
-          <label htmlFor="email">Email:</label>
-          <Text field="email" id="email" />
-        </fieldset>
-          <button type="submit">Submit</button>
+          <fieldset>
+            <label htmlFor="name">{register.name}:</label>
+            <Text field="name" id="name" />
+          </fieldset>
+          <fieldset>
+            <label htmlFor="email">{register.email}:</label>
+            <Text field="email" id="email" />
+          </fieldset>
+          <button type="submit">{register.submit}</button>
         </Form>
         {/*<button onClick={this.handleClick}>Print Form State</button>*/}
       </div>
@@ -41,4 +41,10 @@ class Register extends Component {
   }
 }
 
-export default Register;
+const mapStateToProps = state => {
+  return {
+    translations: state.localization.translations,
+  };
+};
+
+export default connect(mapStateToProps)(Register);
