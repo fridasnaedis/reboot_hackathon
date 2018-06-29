@@ -14,20 +14,18 @@ class LanguageButton extends Component {
   updateLanguage = () => {
     const { dispatch, currentLanguage, languages } = this.props;
 
-    var newLanguage = Object.keys(languages).filter(
-      x => languages[x] !== currentLanguage
-    );
+    var newLanguage = languages[currentLanguage].nextLanguage.code;
 
-    dispatch(setLanguage(languages[newLanguage]));
+    dispatch(setLanguage(newLanguage));
   };
 
   render() {
-    const { flag } = this.props;
+    const { currentLanguage, languages } = this.props;
     return (
       <div className="language-button" onClick={this.updateLanguage}>
         <img
           className="language-button__image"
-          src={flag}
+          src={languages[currentLanguage].nextLanguage.flag}
           alt="Language selector"
         />
       </div>
@@ -39,7 +37,6 @@ const mapStateToProps = state => {
   return {
     currentLanguage: state.localization.currentLanguage,
     languages: state.localization.languages,
-    flag: state.localization.flag,
   };
 };
 

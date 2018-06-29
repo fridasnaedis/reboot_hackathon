@@ -27,7 +27,7 @@ module.exports = {
       },
       register: {
         name: "Nafn",
-        email: "Email",
+        email: "Netfang",
         submit: "Skrá",
       },
     },

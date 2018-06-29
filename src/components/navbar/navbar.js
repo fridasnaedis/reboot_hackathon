@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import "./navbar.css";
 import LanguageButton from "../languageButton";
+import Translate from "../translate";
 
 class Navbar extends Component {
   render() {
@@ -22,10 +22,4 @@ class Navbar extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Navbar);
+export default Translate(Navbar);

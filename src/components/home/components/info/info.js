@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import Card from "./../../../card";
 import "./info.css";
+import Translate from "../../../translate";
 
 class Info extends Component {
   render() {
@@ -18,10 +18,4 @@ class Info extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Info);
+export default Translate(Info);

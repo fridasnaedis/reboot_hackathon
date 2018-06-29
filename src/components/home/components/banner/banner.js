@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
+import Translate from "../../../translate";
 
 import moment from "moment";
 import "./banner.css";
@@ -36,10 +36,4 @@ class Banner extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Banner);
+export default Translate(Banner);

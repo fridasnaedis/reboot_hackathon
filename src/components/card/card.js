@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { connect } from "react-redux";
 import "./card.css";
+import Translate from "../translate";
 
 class Card extends Component {
   static propTypes = {
@@ -18,10 +18,4 @@ class Card extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Card);
+export default Translate(Card);

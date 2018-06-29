@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import "./intro.css";
+import Translate from "../../../translate";
 
 class Intro extends Component {
   render() {
@@ -17,10 +17,4 @@ class Intro extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Intro);
+export default Translate(Intro);

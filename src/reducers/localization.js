@@ -1,13 +1,11 @@
 import { SET_LANGUAGE, SET_TRANSLATIONS } from "../actions/localization";
 import languages from "../localization/languages";
 import translations from "../localization/translations";
-import flags from "../localization/flags";
 
 const initialState = {
   languages,
-  currentLanguage: languages.ICELANDIC,
-  translations: translations[languages.ICELANDIC],
-  flag: flags[languages.ICELANDIC],
+  currentLanguage: languages.is.code,
+  translations: translations[languages.is.code],
 };
 
 export default (state = initialState, action) => {
@@ -17,7 +15,6 @@ export default (state = initialState, action) => {
         ...state,
         currentLanguage: action.language,
         translations: translations[action.language],
-        flag: flags[action.language],
       };
 
     case SET_TRANSLATIONS:

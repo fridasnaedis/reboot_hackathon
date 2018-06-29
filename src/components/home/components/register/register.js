@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form, Text } from "informed";
-import { connect } from "react-redux";
 import "./register.css";
+import Translate from "../../../translate";
 
 class Register extends Component {
   constructor(props) {
@@ -41,10 +41,4 @@ class Register extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    translations: state.localization.translations,
-  };
-};
-
-export default connect(mapStateToProps)(Register);
+export default Translate(Register);
