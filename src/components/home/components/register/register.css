@@ -5,26 +5,101 @@
   align-items: center;
 
   width: 100%;
-  background-color: green;
   height: 500px;
 }
 
-.register .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
+.register--text {
+  color: #625892;
 }
 
-.register .form fieldset {
+.register .form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+  max-width: 400px;
+}
+
+.register .form__container .form__errors {
+  list-style: none;
+  padding: 0;
+  color: red;
+  margin-top: 0;
+}
+
+.register .form__container .form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.register .form__container .form * {
+  padding: 0;
+  margin: 0;
+}
+
+.register .form__container .form .fieldset {
+  border: none;
+  text-align: left;
+
+  height: 50px;
+  background-color: #625892;
   margin-bottom: 20px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  /* border-radius: 8px;*/
+}
+
+.register .form__container .form .fieldset label {
+  padding: 0 10px;
+  color: #d9d5f1;
+}
+
+.register .form__container .form .fieldset input {
+  height: 100%;
+  border: none;
+  flex-grow: 1;
+
+  box-sizing: border-box;
+  border: 2px solid #625892;
+  /*border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;*/
+
+  color: #625892;
+  font-size: 20px;
+  padding-left: 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.register .form__container .form .fieldset input:focus {
+  outline: none;
+  background-color: #9186c6;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  color: white;
+}
+
+.register .form__container .form .form__button {
+  height: 50px;
+  border: 0;
+  background-color: #625892;
+  font-size: 20px;
+
+  color: #d9d5f1;
+}
+.register .form__container .form .form__button:hover {
+  background-color: #d9d5f1;
+  color: #625892;
+  transition-duration: 0.2s;
 }
 
 @media screen and (min-width: 600px) {
   .register .form {
-    width: 70%;
-    max-width: 1200px;
   }
 }

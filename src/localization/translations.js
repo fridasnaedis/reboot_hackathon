@@ -1,5 +1,8 @@
 module.exports = {
   is: {
+    defaultText: {
+      loading: "Hlutir eru í vinnslu!",
+    },
     navbar: {
       left: "Texti vinstri",
       right: "Text hægri",
@@ -29,11 +32,15 @@ module.exports = {
         name: "Nafn",
         email: "Netfang",
         submit: "Skrá",
+        topText: "Skráðu þig að neðan til þess að taka þátt",
       },
     },
     card: "mynd hér",
   },
   en: {
+    defaultText: {
+      loading: "Working!",
+    },
     navbar: {
       left: "Text on left",
       right: "Text on right",
@@ -44,8 +51,7 @@ module.exports = {
       info: {
         first: "How did the idea come up",
         second: "What is",
-        third:
-          "um reboot hack: afhverju nafnið og þá hugmyndin á bak við Reboot",
+        third: "About reboot hack, the name and shit",
       },
       detail: {
         first: {
@@ -63,6 +69,7 @@ module.exports = {
         name: "Name",
         email: "Email",
         submit: "Submit",
+        topText: "Sign up bellow to join the fun",
       },
     },
     card: "image here",
