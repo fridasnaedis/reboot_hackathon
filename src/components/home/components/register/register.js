@@ -4,6 +4,8 @@ import validator from "email-validator";
 import "./register.css";
 import Translate from "../../../translate";
 
+import Loading from "../../../loading";
+
 class Register extends Component {
   constructor(props) {
     super(props);
@@ -11,9 +13,11 @@ class Register extends Component {
     // Remember! This binding is necessary to make `this` work in the callback
     this.setFormApi = this.setFormApi.bind(this);
     this.onSubmitFailure = this.onSubmitFailure.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
   }
   state = {
     errors: {},
+    formSubmitted: false,
   };
 
   onSubmitFailure(errors) {
@@ -21,9 +25,24 @@ class Register extends Component {
       errors,
     });
   }
+  onSubmit(values) {
+    this.setState({
+      formSubmitted: true,
+    });
+  }
 
   setFormApi(formApi) {
     this.formApi = formApi;
+  }
+
+  formButtonContent() {
+    const { register } = this.props.translations.home;
+    const { formSubmitted } = this.state;
+    if (!formSubmitted) {
+      return register.submit;
+    } else {
+      return <Loading dimensions="40" />;
+    }
   }
 
   render() {
@@ -31,7 +50,12 @@ class Register extends Component {
     const { register } = this.props.translations.home;
     const { errors } = this.state;
 
+    // Handles error
     let errorList = Object.entries(errors).map(e => <li>{e[1]}</li>);
+
+    const buttonContent = this.formButtonContent();
+
+    // Handles the register button
     return (
       <div className="register">
         <div className="form__container">
@@ -43,6 +67,7 @@ class Register extends Component {
             className="form"
             getApi={this.setFormApi}
             onSubmitFailure={this.onSubmitFailure}
+            onSubmit={this.onSubmit}
           >
             <div className="fieldset">
               <label htmlFor="name">{register.name}</label>
@@ -53,7 +78,7 @@ class Register extends Component {
               <Text field="email" id="email" validate={validate} />
             </div>
             <button type="submit" className="form__button">
-              {register.submit}
+              {buttonContent}
             </button>
           </Form>
         </div>

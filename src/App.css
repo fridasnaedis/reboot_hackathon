@@ -22,7 +22,7 @@
   font-size: large;
 }
 
-.content {
+.App > .content {
   margin-top: 70px;
 }
 

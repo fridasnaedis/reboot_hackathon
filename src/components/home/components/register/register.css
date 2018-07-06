@@ -35,7 +35,7 @@
   flex-direction: column;
 }
 
-.register .form__container .form * {
+.register .form__container .form .fieldset * {
   padding: 0;
   margin: 0;
 }
@@ -92,11 +92,21 @@
   font-size: 20px;
 
   color: #d9d5f1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .register .form__container .form .form__button:hover {
   background-color: #d9d5f1;
   color: #625892;
   transition-duration: 0.2s;
+}
+
+.register .form__container .form .form__loading-container {
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (min-width: 600px) {

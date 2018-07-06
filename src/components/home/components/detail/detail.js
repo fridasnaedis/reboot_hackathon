@@ -12,10 +12,10 @@ class Detail extends Component {
             <h1>{detail.first.header}</h1>
             <p>{detail.first.main}</p>
           </div>
-          <div className="who">
+          {/*<div className="who">
             <h1>{detail.second.header}r</h1>
             <p>{detail.second.main}</p>
-          </div>
+    </div>*/}
         </div>
       </div>
     );

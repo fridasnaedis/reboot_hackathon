@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { css } from "glamor";
 import "./card.css";
 import Translate from "../translate";
 
@@ -7,12 +8,38 @@ class Card extends Component {
   static propTypes = {
     text: PropTypes.string,
   };
-  render() {
+
+  createImage() {
     const { card } = this.props.translations;
+    const { imageData } = this.props;
+
+    if (imageData) {
+      return (
+        <div className="card__image">
+          <img src={imageData} />
+        </div>
+      );
+    } else {
+      return null;
+    }
+  }
+
+  render() {
+    const { imageData, text } = this.props;
+    let componentHeight = 300;
+
+    const image = this.createImage();
+
+    if (imageData) componentHeight /= 2;
+
+    const cardCss = css({ height: `${componentHeight}px` });
+
     return (
       <div className="card">
-        <div className="card__image">{card}</div>
-        <div className="card__text">{this.props.text}</div>
+        {image}
+        <div {...cardCss} className="card__text">
+          {text}
+        </div>
       </div>
     );
   }

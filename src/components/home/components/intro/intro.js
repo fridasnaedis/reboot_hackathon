@@ -8,9 +8,7 @@ class Intro extends Component {
     return (
       <div className="intro">
         <div className="inner">
-          <div className="content">
-            <h1>{intro}</h1>
-          </div>
+          <img src="/images/logoLarge.png" />
         </div>
       </div>
     );

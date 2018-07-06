@@ -10,7 +10,7 @@ class Info extends Component {
       <div className="info">
         <div className="container">
           <Card text={info.first} />
-          <Card text={info.second} />
+          <Card text={info.second} imageData={"/images/tempImage.png"} />
           <Card text={info.third} />
         </div>
       </div>
