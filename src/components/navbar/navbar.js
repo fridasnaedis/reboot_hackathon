@@ -14,7 +14,9 @@ class Navbar extends Component {
           </div>
           <div className="navbar--item navbar__right">
             <LanguageButton />
-            <p>{translations.navbar.right}</p>
+            <a className="button__register" href="#register">
+              {translations.home.register.submit}
+            </a>
           </div>
         </div>
       </div>

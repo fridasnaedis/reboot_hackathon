@@ -58,7 +58,7 @@ class Register extends Component {
     // Handles the register button
     return (
       <div className="register">
-        <div className="form__container">
+        <div className="form__container" id="register">
           <div className="register--text">
             <h3>{register.topText}</h3>
           </div>

@@ -27,10 +27,10 @@ class Banner extends Component {
 
     return (
       <div className="banner">
-        <p>
+        <h1>
           {translations.home.banner}
           {` ${time.days()}d : ${time.hours()}h : ${time.minutes()}m : ${time.seconds()}s`}
-        </p>
+        </h1>
       </div>
     );
   }

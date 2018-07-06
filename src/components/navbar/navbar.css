@@ -1,5 +1,5 @@
 .navbar {
-  background-color: forestgreen;
+  background-color: #ffb30d;
   height: 40px;
   padding: 15px 0;
   position: fixed;
@@ -27,6 +27,17 @@
   justify-content: flex-end;
 
   padding-right: 20px;
+}
+
+.navbar .navbar__right .button__register {
+  width: 80px;
+  height: 100%;
+  border: none;
+  background-color: #625892;
+  color: #d9d5f1;
+  text-decoration: none;
+  height: auto;
+  padding: 3px 0;
 }
 
 p {
