@@ -30,35 +30,21 @@ class Loading extends Component {
     const borderCss = css(border);
 
     return (
-      <div>
-        <div {...boundaryCss} className="loading__dimension-boundary">
-          <div className="loading">
-            <div
-              {...borderCss}
-              className="loading__element--absolute loading--circle loading--static"
-            />
-          </div>
-        </div>
-        <div {...boundaryCss} className="loading__dimension-boundary">
-          <div className="loading">
-            <div
-              {...borderCss}
-              className="loading__element--absolute loading--circle loading--spin loading--spin-right"
-            />
-          </div>
-        </div>
-        <div {...boundaryCss} className="loading__dimension-boundary">
-          <div className="loading">
-            <div
-              {...borderCss}
-              className="loading__element--absolute loading--circle loading--spin loading--spin-left"
-            />
-          </div>
-        </div>
-        <div {...boundaryCss} className="loading__dimension-boundary">
-          <div className="loading">
-            <div className="loading__element--absolute loading--bounce" />
-          </div>
+      <div {...boundaryCss} className="loading__dimension-boundary">
+        <div className="loading">
+          <div
+            {...borderCss}
+            className="loading__element--absolute loading--circle loading--static"
+          />
+          <div
+            {...borderCss}
+            className="loading__element--absolute loading--circle loading--spin loading--spin-right"
+          />
+          <div
+            {...borderCss}
+            className="loading__element--absolute loading--circle loading--spin loading--spin-left"
+          />
+          <div className="loading__element--absolute loading--bounce" />
         </div>
       </div>
     );

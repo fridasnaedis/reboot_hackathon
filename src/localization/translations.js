@@ -4,7 +4,7 @@ module.exports = {
       loading: "Hlutir eru í vinnslu!",
     },
     navbar: {
-      left: "Texti vinstri",
+      left: "reBoot",
       right: "Text hægri",
     },
     home: {
@@ -42,7 +42,7 @@ module.exports = {
       loading: "Working!",
     },
     navbar: {
-      left: "Text on left",
+      left: "reBoot",
       right: "Text on right",
     },
     home: {
