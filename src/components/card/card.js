@@ -10,13 +10,12 @@ class Card extends Component {
   };
 
   createImage() {
-    const { card } = this.props.translations;
     const { imageData } = this.props;
 
     if (imageData) {
       return (
         <div className="card__image">
-          <img src={imageData} />
+          <img src={imageData} alt="Supporting data for the card" />
         </div>
       );
     } else {

@@ -3,6 +3,10 @@ module.exports = {
     defaultText: {
       loading: "Hlutir eru í vinnslu!",
     },
+    errors: {
+      name: "Nafn verður að vera allaveganna 5 stafir",
+      email: "Ekki gilt netfang",
+    },
     navbar: {
       left: "reBoot",
       right: "Text hægri",
@@ -40,6 +44,10 @@ module.exports = {
   en: {
     defaultText: {
       loading: "Working!",
+    },
+    errors: {
+      name: "Name must be atleast 5 characters",
+      email: "Not a valid email address",
     },
     navbar: {
       left: "reBoot",

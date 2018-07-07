@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^6.0.0",
     "email-validator": "^2.0.4",
     "glamor": "^2.20.40",
     "informed": "^1.2.0",

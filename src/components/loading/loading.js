@@ -15,18 +15,15 @@ const dynamicCSS = {
 class Loading extends Component {
   render() {
     let { dimensions } = this.props;
-    console.log(dimensions);
     dimensions = dimensions ? dimensions : 500;
-
-    console.log(dimensions);
 
     const { boundary, border } = dynamicCSS;
 
-    boundary.width = `${dimensions}px;`;
-    boundary.height = `${dimensions}px;`;
+    boundary.width = `${dimensions}px`;
+    boundary.height = `${dimensions}px`;
     const boundaryCss = css(boundary);
 
-    border.borderWidth = `${dimensions / 10}px; !important`;
+    border.borderWidth = `${dimensions / 10}px !important`;
     const borderCss = css(border);
 
     return (
