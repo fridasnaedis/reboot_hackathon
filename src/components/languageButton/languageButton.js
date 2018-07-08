@@ -14,6 +14,26 @@ class LanguageButton extends Component {
   updateLanguage = () => {
     const { dispatch, currentLanguage, languages } = this.props;
 
+    window.navigator.vibrate([
+      100,
+      30,
+      100,
+      30,
+      100,
+      30,
+      200,
+      30,
+      200,
+      30,
+      200,
+      30,
+      100,
+      30,
+      100,
+      30,
+      100,
+    ]);
+
     var newLanguage = languages[currentLanguage].nextLanguage.code;
 
     dispatch(setLanguage(newLanguage));
