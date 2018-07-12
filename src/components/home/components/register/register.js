@@ -86,7 +86,11 @@ class Register extends Component {
     }
 
     if ((signup.result && !signup.result.success) || signup.errors) {
-      return <div className="register">not so nice signup</div>;
+      return (
+        <div className="register">
+          <h3>{register.fail}</h3>
+        </div>
+      );
     }
 
     // Handles the register button
