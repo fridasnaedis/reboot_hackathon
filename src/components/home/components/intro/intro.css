@@ -12,8 +12,10 @@
   width: 70%;
   max-width: 800px;
   height: 600px;
+  max-height: 80%;
 }
 
 .intro .image-container img {
   width: 100%;
+  border: 2px solid #6d6d6d;
 }

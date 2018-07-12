@@ -10,7 +10,12 @@ class Navbar extends Component {
       <div className="navbar">
         <div className="container">
           <div className="navbar--item navbar__left">
-            <p>{translations.navbar.left}</p>
+            <a className="anchor__home" href="/">
+              <img
+                src="/images/reboothack_small.png"
+                alt="The logo for the website"
+              />
+            </a>
           </div>
           <div className="navbar--item navbar__right">
             <LanguageButton />

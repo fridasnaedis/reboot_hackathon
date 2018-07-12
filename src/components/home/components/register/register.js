@@ -72,11 +72,21 @@ class Register extends Component {
     const buttonContent = this.formButtonContent();
 
     if (signup.result && signup.result.success) {
-      return <div>very nice signup</div>;
+      return (
+        <div className="register success">
+          <div className="text--thanks">
+            <h3>{register.thanks}</h3>
+          </div>
+          <img
+            src="/images/reboothack_default.png"
+            alt="The logo for the hackathon"
+          />
+        </div>
+      );
     }
 
     if ((signup.result && !signup.result.success) || signup.errors) {
-      return <div>not so nice signup</div>;
+      return <div className="register">not so nice signup</div>;
     }
 
     // Handles the register button

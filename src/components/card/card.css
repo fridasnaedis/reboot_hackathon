@@ -24,7 +24,7 @@
 
 .card:hover,
 .card:focus {
-  transform: scale3d(1.006, 1.006, 1);
+  transform: scale3d(1.01, 1.01, 1);
 }
 
 .card:hover::after,

@@ -57,8 +57,9 @@
 }
 
 .register .form__container .form .fieldset label {
-  padding: 0 10px;
+  padding-left: 10px;
   color: #d9d5f1;
+  width: 90px;
 }
 
 .register .form__container .form .fieldset input {
@@ -108,6 +109,15 @@
 .register .form__container .form .form__loading-container {
   width: 20px;
   height: 20px;
+}
+
+.register.success img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.register.success .text--thanks {
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {

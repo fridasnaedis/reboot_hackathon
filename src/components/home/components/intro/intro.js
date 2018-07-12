@@ -12,7 +12,10 @@ class Intro extends Component {
     return (
       <div {...introCss} className="intro">
         <div className="image-container">
-          <img src="/images/logoLarge.png" alt="The logo for the website" />
+          <img
+            src="/images/reboothack_default.png"
+            alt="The logo for the website"
+          />
         </div>
       </div>
     );
