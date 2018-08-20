@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import { Route, Switch } from "react-router-dom";
-import "./App.css";
-import Home from "./components/home";
-import Navbar from "./components/navbar";
-import LoadingShowcase from "./components/loadingShowcase";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import { Route, Switch } from 'react-router-dom';
+import './App.css';
+import Home from './components/home';
+import Navbar from './components/navbar';
+import LoadingShowcase from './components/loadingShowcase';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,8 @@ class App extends Component {
             <Route exact path="/loading-test" component={LoadingShowcase} />
           </Switch>
         </section>
+
+        <Footer />
       </main>
     );
   }

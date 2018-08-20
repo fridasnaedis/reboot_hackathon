@@ -4,8 +4,10 @@
   align-items: center;
   flex-direction: column;
 
-  background-image: url("/images/server.jpg");
-  background-position: center;
+  background-image: url('/images/Reykjavik.jpg');
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .intro .image-container {

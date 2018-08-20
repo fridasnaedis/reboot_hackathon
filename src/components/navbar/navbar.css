@@ -1,7 +1,6 @@
 .navbar {
-  background-color: #ffb30d;
-  height: 30px;
-  padding: 20px 0;
+  background-color: #d9d5f1;
+  height: 50px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,11 +26,23 @@
 }
 
 .navbar .navbar__left .anchor__home {
-  background-color: red;
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.navbar .navbar__left .anchor__home span {
+  color: #ffb30d;
 }
 
 .navbar .navbar__left .anchor__home img {
   height: 100%;
+  width: 50px;
+  margin-right: 10px;
 }
 
 .navbar .navbar__right {
@@ -48,7 +59,16 @@
   color: #d9d5f1;
   text-decoration: none;
   height: auto;
-  padding: 6px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transition: color 0.2s ease-in;
+}
+
+.navbar .navbar__right .button__register:hover {
+  color: #ffb30d;
 }
 
 p {

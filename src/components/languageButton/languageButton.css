@@ -1,16 +1,20 @@
 .language-button {
   height: 100%;
-  width: 48px;
+  width: 50px;
 
-  transition: box-shadow 0.1s ease-in;
   margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  cursor: pointer;
+
+  background-color: #625892;
+  color: #d9d5f1;
+  transition: color 0.2s ease-in;
 }
 
 .language-button:hover {
-  box-shadow: 0px 0px 3px 3px white;
-}
-
-.language-button .language-button__image {
-  height: 100%;
-  width: 100%;
+  color: #ffb30d;
 }

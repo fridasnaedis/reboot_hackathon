@@ -1,0 +1,19 @@
+.footer {
+  background-color: rgb(85, 85, 85);
+  color: #dfdfdf;
+}
+
+.footer .footer--sponsors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .footer--sponsors img {
+  height: 100px;
+  padding: 20px;
+}
+
+.footer .footer--info {
+  padding: 20px 0;
+}

@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { Form, Text } from "informed";
-import { connect } from "react-redux";
-import validator from "email-validator";
-import "./register.css";
-import Translate from "../../../translate";
-import { signup } from "../../../../actions/signup";
-import Loading from "../../../loading";
+import React, { Component } from 'react';
+import { Form, Text, TextArea } from 'informed';
+import { connect } from 'react-redux';
+import validator from 'email-validator';
+import './register.css';
+import Translate from '../../../translate';
+import { signup } from '../../../../actions/signup';
+import Loading from '../../../loading';
 
 class Register extends Component {
   constructor(props) {
@@ -22,11 +22,11 @@ class Register extends Component {
   };
 
   validateName = value => {
-    return !value || value.length < 5 ? "name" : null;
+    return !value || value.length < 5 ? 'name' : null;
   };
 
   validateEmail = value => {
-    return !value || !validator.validate(value) ? "email" : null;
+    return !value || !validator.validate(value) ? 'email' : null;
   };
 
   onSubmitFailure(errors) {
@@ -40,7 +40,7 @@ class Register extends Component {
     });
 
     const { dispatch } = this.props;
-
+    console.log(data);
     dispatch(signup({ data }));
   }
 
@@ -114,6 +114,10 @@ class Register extends Component {
             <div className="fieldset">
               <label htmlFor="email">{register.email}</label>
               <Text field="email" id="email" validate={this.validateEmail} />
+            </div>
+            <div className="fieldset-textbox">
+              <label htmlFor="interest">{register.interest}</label>
+              <TextArea field="interest" id="interest" />
             </div>
             <button type="submit" className="form__button">
               {buttonContent}

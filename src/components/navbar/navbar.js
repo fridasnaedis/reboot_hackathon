@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "./navbar.css";
-import LanguageButton from "../languageButton";
-import Translate from "../translate";
+import React, { Component } from 'react';
+import './navbar.css';
+import LanguageButton from '../languageButton';
+import Translate from '../translate';
 
 class Navbar extends Component {
   render() {
@@ -15,6 +15,7 @@ class Navbar extends Component {
                 src="/images/reboothack_small.png"
                 alt="The logo for the website"
               />
+              Re:bo<span>o</span>t Hack
             </a>
           </div>
           <div className="navbar--item navbar__right">

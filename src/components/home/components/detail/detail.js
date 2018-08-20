@@ -1,25 +1,19 @@
-import React, { Component } from "react";
-import "./detail.css";
-import Translate from "../../../translate";
-
+import React, { Component } from 'react';
+import './detail.css';
 class Detail extends Component {
   render() {
-    const { detail } = this.props.translations.home;
+    const { header, main } = this.props;
     return (
       <div className="detail">
         <div className="container">
           <div className="why">
-            <h1>{detail.first.header}</h1>
-            <p>{detail.first.main}</p>
+            <h1>{header}</h1>
+            <p>{main}</p>
           </div>
-          {/*<div className="who">
-            <h1>{detail.second.header}r</h1>
-            <p>{detail.second.main}</p>
-    </div>*/}
         </div>
       </div>
     );
   }
 }
 
-export default Translate(Detail);
+export default Detail;

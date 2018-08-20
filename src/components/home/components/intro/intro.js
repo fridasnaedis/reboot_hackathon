@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { css } from "glamor";
-import "./intro.css";
-import Translate from "../../../translate";
+import React, { Component } from 'react';
+import { css } from 'glamor';
+import './intro.css';
+import Translate from '../../../translate';
 
 class Intro extends Component {
   render() {
-    const height = window.innerHeight - 70;
+    const height = window.innerHeight - 50;
 
     const introCss = css({ height });
 
