@@ -16,12 +16,16 @@ class Home extends Component {
           header={home.detail.first.header}
           main={home.detail.first.main}
         />
-        <FillerImage />
+        <FillerImage imageUrl={'/images/uniice.jpg'}/>
         <Detail
           header={home.detail.second.header}
           main={home.detail.second.main}
         />
-        <Info />
+        <FillerImage imageUrl={'/images/uniice.jpg'}/>
+        <Detail
+          header={home.detail.third.header}
+          main={home.detail.third.main}
+        />
         <Register />
       </div>
     );

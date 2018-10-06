@@ -6,11 +6,19 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer--sponsors">
-          <img src="/images/ImgOne.jpg" alt="Microsoft logo" />
-          <img src="/images/ImgTwo.jpg" alt="University of Iceland logo" />
+          <div className="footer--sponsors-img">
+            <div>
+              <img src="/images/ImgOne.jpg" alt="Microsoft logo" />
+            </div>
+          </div>
+          <div className="footer--sponsors-img">
+            <div>
+              <img src ="/images/ImgTwo.jpg" alt="University of Iceland logo" />
+            </div>
+          </div>
         </div>
         <div className="footer--info">
-          <p>hackathon@hackthon.gov.edu</p>
+          <p>reboothackiceland@gmail.com</p>
         </div>
       </div>
     );

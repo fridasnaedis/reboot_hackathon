@@ -1,5 +1,4 @@
 .fillerImage {
-  background-image: url('/images/uniice.jpg');
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;

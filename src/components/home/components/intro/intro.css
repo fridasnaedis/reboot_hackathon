@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
 
-  background-image: url('/images/Reykjavik.jpg');
+  background-image: url('/images/reykjavik-tabea-damm-unsplash.jpg');
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,11 +13,18 @@
 .intro .image-container {
   width: 70%;
   max-width: 800px;
-  height: 600px;
-  max-height: 80%;
+  max-height: 300px;
+  /*max-height: 80%;*/
+  background-color: rgb(255, 255, 255 ,0.9);
+  transition: background-color 0.25s ease;
+}
+
+.intro .image-container:hover{
+  background-color: rgb(255, 255, 255);
 }
 
 .intro .image-container img {
   width: 100%;
-  border: 2px solid #6d6d6d;
 }
+
+

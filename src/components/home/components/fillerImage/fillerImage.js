@@ -6,7 +6,12 @@ class FillerImage extends Component {
   render() {
     const height = window.innerHeight / 2;
 
-    const fillerImageCss = css({ height });
+    const fillerImageCss = css(
+      { 
+        height,
+        backgroundImage: `url(${this.props.imageUrl})`,
+      }
+    );
 
     return <div {...fillerImageCss} className="fillerImage" />;
   }

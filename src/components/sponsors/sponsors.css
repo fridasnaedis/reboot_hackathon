@@ -10,19 +10,23 @@
   color: #625892;
 }
 
+span {
+  color: #625892;
+}
+
 .sponsor__content .sponsor__table {
 }
 
-.sponsor__content .sponsor__header--category {
+.sponsor__content .sponsor__table-header--category {
   color: orange;
-  font-size: 28px;
+  font-size: 1.7em;
   font-weight: 800;
 }
 
-.sponsor__content .sponsor__header--price {
+.sponsor__content .sponsor__table-header--price {
   background-color: #9186c6;
   color: white;
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .sponsor__content .sponsor__table tr {
@@ -40,5 +44,34 @@
 .sponsor__content .sponsor__table tr td:not(:first-child) {
   background-color: #d9d5f1;
   color: #625892;
-  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.sponsor__content .sponsor__table tr *:not(:first-child) {
+  width: 22%;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .sponsor__content .sponsor__table {
+    font-size: 12px;
+  }
+
+  .sponsor__content .sponsor__table tr *:not(:first-child) {
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sponsor__content .sponsor__table tr td:nth-child(1) {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }

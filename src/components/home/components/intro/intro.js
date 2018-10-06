@@ -13,7 +13,7 @@ class Intro extends Component {
       <div {...introCss} className="intro">
         <div className="image-container">
           <img
-            src="/images/reboothack_default.png"
+            src="/images/reboothack_default_transparent.png"
             alt="The logo for the website"
           />
         </div>

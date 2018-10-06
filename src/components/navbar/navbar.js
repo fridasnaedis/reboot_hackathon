@@ -15,15 +15,18 @@ class Navbar extends Component {
                 src="/images/reboothack_small.png"
                 alt="The logo for the website"
               />
-              Re:bo<span>o</span>t Hack
+              <img
+                src="/images/reboothack_default_navbar.png"
+                alt="The logo for the hackathon"
+              />
             </a>
           </div>
           <div className="navbar--item navbar__right">
-            <a className="button__register" href="/sponsors">
+            <a className="button" href="/sponsors">
               {translations.sponsors.content}
             </a>
             <LanguageButton />
-            <a className="button__register" href="./#register">
+            <a className="button button__register" href="./#register">
               {translations.home.register.submit}
             </a>
           </div>

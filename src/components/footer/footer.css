@@ -9,11 +9,26 @@
   justify-content: center;
 }
 
-.footer .footer--sponsors img {
+/* .footer .footer--sponsors img {
   height: 100px;
-  padding: 20px;
-}
+  margin: 20px;
+} */
 
 .footer .footer--info {
   padding: 20px 0;
+}
+
+.footer .footer--sponsors .footer--sponsors-img{
+  width: 30%;
+  max-width: 200px;
+}
+
+.footer .footer--sponsors .footer--sponsors-img > div{
+  width: 80%;
+  padding: 10%;
+}
+
+.footer .footer--sponsors .footer--sponsors-img img{
+  /* height: 100px; */
+  width: 100%;
 }
