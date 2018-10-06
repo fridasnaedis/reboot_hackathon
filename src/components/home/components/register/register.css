@@ -144,3 +144,19 @@
   .register .form {
   }
 }
+
+.register .form__custom--checkbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  height: 100%;
+  align-items: left;
+}
+
+.register .form__custom--checkbox .item {
+  width: 46%;
+  padding: 2%;
+  color: #625892;
+  text-align: left;
+}

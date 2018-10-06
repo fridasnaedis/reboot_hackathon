@@ -1,6 +1,6 @@
 const baseurl = process.env.REACT_APP_REBOOT_API;
 
-async function request({ method, endpoint = "", data } = {}) {
+async function request({ method, endpoint = '', data } = {}) {
   const url = `${baseurl}${endpoint}`;
   let options = {};
 
@@ -8,7 +8,7 @@ async function request({ method, endpoint = "", data } = {}) {
     options = {
       body: JSON.stringify(data),
       headers: {
-        "content-type": "application/json",
+        'content-type': 'application/json',
       },
       method: method,
     };

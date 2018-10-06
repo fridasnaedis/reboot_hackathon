@@ -1,0 +1,44 @@
+.sponsor__content {
+  max-width: 1000px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor__content .sponsor__header {
+  color: #625892;
+}
+
+.sponsor__content .sponsor__table {
+}
+
+.sponsor__content .sponsor__header--category {
+  color: orange;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.sponsor__content .sponsor__header--price {
+  background-color: #9186c6;
+  color: white;
+  font-size: 25px;
+}
+
+.sponsor__content .sponsor__table tr {
+  height: 50px;
+}
+
+.sponsor__content .sponsor__table tr td:nth-child(1) {
+  background-color: #9186c6;
+  color: white;
+  width: 34%;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.sponsor__content .sponsor__table tr td:not(:first-child) {
+  background-color: #d9d5f1;
+  color: #625892;
+  font-weight: 900;
+}

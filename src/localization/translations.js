@@ -41,9 +41,32 @@ module.exports = {
         topText: 'Skráðu þig að neðan til þess að taka þátt',
         thanks: 'Takk fyrir skráninguna',
         fail: 'Eitthvað fór úrskeiðis, prófið aftur seinna',
+        interestFields: [
+          {
+            key: 1,
+            value: 'Skýjalausnir',
+          },
+          {
+            key: 2,
+            value: 'Grafísk Hönnun',
+          },
+          {
+            key: 4,
+            value: 'Vefforritun',
+          },
+        ],
       },
     },
     card: 'mynd hér',
+    sponsors: {
+      content: 'ssjsaui',
+      header: 'Verðflokkar fyrir styrktar- og samstarfsaðila',
+      table: {
+        r1: 'Styrktaraðila titill',
+        r2: 'Merki fyrirtækis á öllu markaðs/kynningarefni',
+        r3: 'Útgefið efni varðandi ráðningar á staðnum',
+      },
+    },
   },
   en: {
     defaultText: {
@@ -85,8 +108,31 @@ module.exports = {
         topText: 'Sign up bellow to join the fun',
         thanks: 'Thanks for signing up',
         fail: 'Something went wrong, please try again later',
+        interestFields: [
+          {
+            key: 1,
+            value: 'Cloud based solutions',
+          },
+          {
+            key: 2,
+            value: 'Graphic design',
+          },
+          {
+            key: 4,
+            value: 'Web application',
+          },
+        ],
       },
     },
     card: 'image here',
+    sponsors: {
+      content: 'some here more',
+      header: 'Lorem',
+      table: {
+        r1: 'Lorem',
+        r2: 'Lorem Lorem',
+        r3: 'Lorem Lorem Lorem',
+      },
+    },
   },
 };
