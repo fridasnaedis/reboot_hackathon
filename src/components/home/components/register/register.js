@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Text } from 'informed';
+import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import validator from 'email-validator';
 import './register.css';
@@ -11,6 +12,8 @@ import CustomCheckbox from '../customCheckbox';
 class Register extends Component {
   constructor(props) {
     super(props);
+
+    this.registerFormRef = React.createRef();
 
     // Remember!  This binding is necessary to make `this` work in the callback
     this.setFormApi = this.setFormApi.bind(this);
@@ -32,6 +35,9 @@ class Register extends Component {
   };
 
   onSubmitFailure(errors) {
+    const myDomNode = ReactDOM.findDOMNode(this.registerFormRef.current);
+    myDomNode.scrollIntoView({ block: 'start', behavior: 'smooth' });
+
     this.setState({
       errors,
     });
@@ -133,7 +139,7 @@ class Register extends Component {
     // Handles the register button
     return (
       <div className="register">
-        <div id="registerForm" />
+        <div id="registerForm" ref={this.registerFormRef} />
         <div className="form__container" id="register">
           <div className="register--text">
             <h3>{register.topText}</h3>
