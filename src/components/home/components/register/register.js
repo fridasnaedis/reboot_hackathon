@@ -27,6 +27,13 @@ class Register extends Component {
     formCheckboxes: [],
   };
 
+  componentDidMount() {
+    // Preloads the image
+    // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+    const img = new Image();
+    img.src = '/images/reboothack_default.png';
+  }
+
   componentDidUpdate(prevProps) {
     // If register done then scroll to thank you
     if (
@@ -185,12 +192,6 @@ class Register extends Component {
             </button>
           </Form>
         </div>
-        {/* Preloading the image for faster display */}
-        <img
-          style={{ display: 'none' }}
-          src="/images/reboothack_default.png"
-          alt="The logo for the hackathon"
-        />
       </div>
     );
   }
