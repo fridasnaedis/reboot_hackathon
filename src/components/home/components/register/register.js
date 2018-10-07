@@ -14,6 +14,7 @@ class Register extends Component {
     super(props);
 
     this.registerFormRef = React.createRef();
+    this.registerFormDoneRef = React.createRef();
 
     // Remember!  This binding is necessary to make `this` work in the callback
     this.setFormApi = this.setFormApi.bind(this);
@@ -25,6 +26,20 @@ class Register extends Component {
     formSubmitted: false,
     formCheckboxes: [],
   };
+
+  componentDidUpdate(prevProps) {
+    // If register done then scroll to thank you
+    if (
+      this.props.signup.result &&
+      this.props.signup.result.success &&
+      !prevProps.signup.result
+    ) {
+      const myDomNode = ReactDOM.findDOMNode(this.registerFormDoneRef.current);
+      setTimeout(function() {
+        myDomNode.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      }, 150);
+    }
+  }
 
   validateName = value => {
     return !value || value.length < 5 ? 'name' : null;
@@ -54,8 +69,6 @@ class Register extends Component {
       .map(x => x.key);
 
     data = { ...data, interests };
-
-    console.log(data);
 
     const { dispatch } = this.props;
 
@@ -116,7 +129,7 @@ class Register extends Component {
 
     if (signup.result && signup.result.success) {
       return (
-        <div className="register success">
+        <div className="register success" ref={this.registerFormDoneRef}>
           <div className="text--thanks">
             <h2>{register.thanks}</h2>
           </div>
@@ -172,6 +185,12 @@ class Register extends Component {
             </button>
           </Form>
         </div>
+        {/* Preloading the image for faster display */}
+        <img
+          style={{ display: 'none' }}
+          src="/images/reboothack_default.png"
+          alt="The logo for the hackathon"
+        />
       </div>
     );
   }
