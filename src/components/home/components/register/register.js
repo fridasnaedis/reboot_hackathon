@@ -113,7 +113,7 @@ class Register extends Component {
       return (
         <div className="register success">
           <div className="text--thanks">
-            <h3>{register.thanks}</h3>
+            <h2>{register.thanks}</h2>
           </div>
           <img
             src="/images/reboothack_default.png"

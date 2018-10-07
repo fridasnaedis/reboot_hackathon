@@ -78,7 +78,6 @@
 .navbar .navbar__right .button__register {
   background-color: #ffb20dc7;
   color: white;
-
   transition: background-color 0.2s ease-in;
 }
 
@@ -95,4 +94,18 @@ p {
   .navbar .navbar__left .anchor__home img:nth-child(2) {
     display: none;
   }
+
+  .navbar .navbar__right .button {
+    margin-right: 0;
+  }
+
+  .navbar .navbar__left {
+    padding-left: 10px;
+  }
+
+  .navbar .navbar__right {
+    padding-right: 5px;
+  }
+
+
 }

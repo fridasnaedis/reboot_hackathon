@@ -29,6 +29,10 @@ span {
   font-size: 1.5em;
 }
 
+.sponsor__content .sponsor__table-header--price th {
+  font-family: sans-serif;
+}
+
 .sponsor__content .sponsor__table tr {
   height: 50px;
 }
