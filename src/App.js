@@ -7,6 +7,7 @@ import Navbar from './components/navbar';
 import LoadingShowcase from './components/loadingShowcase';
 import Footer from './components/footer';
 import Sponsors from './components/sponsors';
+import Faq from './components/faq';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/sponsors" component={Sponsors} />
+            <Route exact path="/faq" component={Faq} />
             <Route exact path="/loading-test" component={LoadingShowcase} />
           </Switch>
         </section>

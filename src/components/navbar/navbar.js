@@ -22,6 +22,9 @@ class Navbar extends Component {
             </a>
           </div>
           <div className="navbar--item navbar__right">
+            <a className="button" href="/faq">
+              {translations.faq.content}
+            </a>
             <a className="button" href="/sponsors">
               {translations.sponsors.content}
             </a>

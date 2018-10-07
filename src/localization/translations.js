@@ -30,7 +30,7 @@ module.exports = {
         second: {
           header: 'Hackathon?',
           main:
-            '<a href="https://www.google.com/">Hackathon</a> snýst ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningarmaraþon eða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þáttakendur fá rými til þess að læra, byggja og skapa. Þáttakendur keppa saman í hóp og vinna í rúma 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
+            'Hackathon snýst ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningarmaraþon eða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þáttakendur fá rými til þess að læra, byggja og skapa. Þáttakendur keppa saman í hóp og vinna í rúma 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
         third: {
           header: 'Reboot Hack?',
@@ -56,8 +56,52 @@ module.exports = {
             value: 'Grafísk Hönnun',
           },
           {
-            key: 4,
+            key: 3,
             value: 'Vefforritun',
+          },
+          {
+            key: 4,
+            value: 'Bakendaforritun',
+          },
+          {
+            key: 5,
+            value: 'Gagnagrunnar',
+          },
+          {
+            key: 6,
+            value: 'Smáforrit (Application development)',
+          },
+          {
+            key: 7,
+            value: 'Bitakeðja (Blockchain)',
+          },
+          {
+            key: 8,
+            value: 'Gervigreind',
+          },
+          {
+            key: 9,
+            value: 'Framkoma',
+          },
+          {
+            key: 10,
+            value: 'Vörumerkjaþróun',
+          },
+          {
+            key: 11,
+            value: 'Markaðsfræði',
+          },
+          {
+            key: 12,
+            value: 'Fjármögnun',
+          },
+          {
+            key: 13,
+            value: 'Verkefnastjórnunn',
+          },
+          {
+            key: 14,
+            value: 'Nýsköpun',
           },
         ],
       },
@@ -189,8 +233,52 @@ module.exports = {
             value: 'Graphic design',
           },
           {
+            key: 3,
+            value: 'Web development',
+          },
+          {
             key: 4,
-            value: 'Web application',
+            value: 'Back end development',
+          },
+          {
+            key: 5,
+            value: 'Databases',
+          },
+          {
+            key: 6,
+            value: 'Application development',
+          },
+          {
+            key: 7,
+            value: 'Blockchain',
+          },
+          {
+            key: 8,
+            value: 'Artificial Intelligence',
+          },
+          {
+            key: 9,
+            value: 'Presentation',
+          },
+          {
+            key: 10,
+            value: 'Product development',
+          },
+          {
+            key: 11,
+            value: 'Marketing',
+          },
+          {
+            key: 12,
+            value: 'Raising funds',
+          },
+          {
+            key: 13,
+            value: 'Project management',
+          },
+          {
+            key: 14,
+            value: 'Start-ups',
           },
         ],
       },

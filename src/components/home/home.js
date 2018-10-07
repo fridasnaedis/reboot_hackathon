@@ -21,7 +21,7 @@ class Home extends Component {
           header={home.detail.second.header}
           main={home.detail.second.main}
         />
-        <FillerImage imageUrl={'/images/uniice.jpg'}/>
+        <FillerImage imageUrl={'/images/ht.jpg'}/>
         <Detail
           header={home.detail.third.header}
           main={home.detail.third.main}
