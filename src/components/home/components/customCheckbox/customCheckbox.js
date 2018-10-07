@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './customCheckbox.css';
 
 class CustomCheckbox extends Component {
   render() {
