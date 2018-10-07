@@ -122,16 +122,22 @@
   font-size: 20px;
 
   color: #d9d5f1;
+  cursor: pointer;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition-duration: 0.3s;
+
+  -webkit-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+  -moz-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+  box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
 }
 .register .form__container .form .form__button:hover {
-  background-color: #d9d5f1;
-  color: #625892;
-  transition-duration: 0.2s;
+  color: #ffb30d;
+
+  /* transition-timing-function: ease-out; */
 }
 
 .register .form__container .form .form__loading-container {
