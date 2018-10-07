@@ -6,6 +6,7 @@
 
 .register .item input[type='checkbox'] {
   background: #d9d5f1;
+  cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -19,6 +20,10 @@
 .register .item input[type='checkbox']:checked {
   box-shadow: inset 0px 0px 0px 5px #625892;
   background-color: #ffb30d;
+}
+
+.register .item label {
+  cursor: pointer;
 }
 
 /* 625892; */
