@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './navbar.css';
 import LanguageButton from '../languageButton';
 import Translate from '../translate';
@@ -10,7 +11,8 @@ class Navbar extends Component {
       <div className="navbar">
         <div className="container">
           <div className="navbar--item navbar__left">
-            <a className="anchor__home" href="/">
+            {/* <Link className="anchor__home" to={'/'}>{p.name}</Link> */}
+            <Link className="anchor__home" to="/">
               <img
                 src="/images/reboothack_small.png"
                 alt="The logo for the website"
@@ -19,19 +21,19 @@ class Navbar extends Component {
                 src="/images/reboothack_default_navbar.png"
                 alt="The logo for the hackathon"
               />
-            </a>
+            </Link>
           </div>
           <div className="navbar--item navbar__right">
-            <a className="button" href="/faq">
+            <Link className="button" to="/faq">
               {translations.faq.content}
-            </a>
-            <a className="button" href="/sponsors">
+            </Link>
+            <Link className="button" to="/sponsors">
               {translations.sponsors.content}
-            </a>
+            </Link>
             <LanguageButton />
-            <a className="button button__register" href="./#register">
+            <Link className="button button__register" to="/#registerForm">
               {translations.home.register.submit}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

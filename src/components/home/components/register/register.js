@@ -91,7 +91,6 @@ class Register extends Component {
         />
       );
     });
-    //<CustomCheckbox text={'kets penis'} itemId={'ket'} />
   }
 
   render() {
@@ -134,6 +133,7 @@ class Register extends Component {
     // Handles the register button
     return (
       <div className="register">
+        <div id="registerForm" />
         <div className="form__container" id="register">
           <div className="register--text">
             <h3>{register.topText}</h3>
