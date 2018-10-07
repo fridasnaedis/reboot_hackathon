@@ -12,7 +12,7 @@ class Register extends Component {
   constructor(props) {
     super(props);
 
-    // Remember! This binding is necessary to make `this` work in the callback
+    // Remember!  This binding is necessary to make `this` work in the callback
     this.setFormApi = this.setFormApi.bind(this);
     this.onSubmitFailure = this.onSubmitFailure.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
