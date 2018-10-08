@@ -8,7 +8,7 @@ class Question extends Component {
     return (
       <div className="question__answer">
         <h3 className="question">{text}</h3>
-        <p className="answer">{answer}</p>
+        <p className="answer" dangerouslySetInnerHTML={{ __html: answer}}/>
       </div>
     );
   }

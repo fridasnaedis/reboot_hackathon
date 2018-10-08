@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Intro from './components/intro';
-import Info from './components/info';
 import Detail from './components/detail';
 import Register from './components/register';
 import FillerImage from './components/fillerImage';
 import Translate from '../translate';
+import './home.css'
 
 class Home extends Component {
   render() {
@@ -26,6 +26,11 @@ class Home extends Component {
           header={home.detail.third.header}
           main={home.detail.third.main}
         />
+        <div className='info__later'>
+          <p>
+            {home.detail.fourth.main}
+          </p>
+        </div>
         <Register />
       </div>
     );
