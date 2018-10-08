@@ -143,7 +143,7 @@ module.exports = {
       },
       question3: {
         text: 'Hvar og hvenær fer Reboot fram?',
-        answer: 'Reboot hack fer fram í Háskóla Íslands laugardaginn 15.febrúar til sunnudagsins 16.febrúar 2019.',
+        answer: 'Reboot hack fer fram í Háskóla Íslands laugardaginn 16. febrúar til sunnudagsins 17. febrúar 2019.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -326,7 +326,7 @@ module.exports = {
       },
       question3: {
         text: 'When and where is the hackathon?',
-        answer: 'The hackathon is held in the University of Iceland Saturday 15th of Febuary to Sunday 16th of Febuary 2019.',
+        answer: 'The hackathon is held in the University of Iceland Saturday 16th of February to Sunday 17th of February 2019.',
       },
       question4: {
         text: 'Do I have to know how to code?',
