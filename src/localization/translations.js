@@ -69,12 +69,16 @@ module.exports = {
             value: 'Bakendaforritun',
           },
           {
+            key: 15,
+            value: 'Netvinna (Computer Networking)',
+          },
+          {
             key: 5,
-            value: 'Gagnagrunnar',
+            value: 'Smáforrit (Application development)',
           },
           {
             key: 6,
-            value: 'Smáforrit (Application development)',
+            value: 'Gagnagrunnar',
           },
           {
             key: 7,
@@ -83,6 +87,14 @@ module.exports = {
           {
             key: 8,
             value: 'Gervigreind',
+          },
+          {
+            key: 16,
+            value: 'Tölvuöryggi',
+          },
+          {
+            key: 12,
+            value: 'Vélbúnaður',
           },
           {
             key: 9,
@@ -97,10 +109,6 @@ module.exports = {
             value: 'Markaðsfræði',
           },
           {
-            key: 12,
-            value: 'Fjármögnun',
-          },
-          {
             key: 13,
             value: 'Verkefnastjórnun',
           },
@@ -108,6 +116,7 @@ module.exports = {
             key: 14,
             value: 'Nýsköpun',
           },
+          
         ],
       },
     },
@@ -252,12 +261,16 @@ module.exports = {
             value: 'Back end development',
           },
           {
+            key: 15,
+            value: 'Computer Networking',
+          },
+          {
             key: 5,
-            value: 'Databases',
+            value: 'Application development',
           },
           {
             key: 6,
-            value: 'Application development',
+            value: 'Databases',
           },
           {
             key: 7,
@@ -266,6 +279,14 @@ module.exports = {
           {
             key: 8,
             value: 'Artificial Intelligence',
+          },
+          {
+            key: 16,
+            value: 'Cybersecurity',
+          },
+          {
+            key: 12,
+            value: 'Hardware',
           },
           {
             key: 9,
@@ -280,10 +301,6 @@ module.exports = {
             value: 'Marketing',
           },
           {
-            key: 12,
-            value: 'Raising funds',
-          },
-          {
             key: 13,
             value: 'Project management',
           },
@@ -291,6 +308,8 @@ module.exports = {
             key: 14,
             value: 'Start-ups',
           },
+          
+          
         ],
       },
     },
