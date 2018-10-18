@@ -9,6 +9,8 @@ import { signup } from '../../../../actions/signup';
 import Loading from '../../../loading';
 import CustomCheckbox from '../customCheckbox';
 
+const baseurl = process.env.REACT_APP_SUB_URL;
+
 class Register extends Component {
   constructor(props) {
     super(props);
@@ -31,7 +33,7 @@ class Register extends Component {
     // Preloads the image
     // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
     const img = new Image();
-    img.src = '/images/reboothack_default.png';
+    img.src = `${baseurl}/images/reboothack_default.png`;
   }
 
   componentDidUpdate(prevProps) {
@@ -141,7 +143,7 @@ class Register extends Component {
             <h2>{register.thanks}</h2>
           </div>
           <img
-            src="/images/reboothack_default.png"
+            src={`${baseurl}/images/reboothack_default.png`}
             alt="The logo for the hackathon"
           />
         </div>

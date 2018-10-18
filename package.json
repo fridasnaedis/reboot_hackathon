@@ -2,6 +2,7 @@
   "name": "hackathon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://notendur.hi.is/keg13/RHP/",
   "dependencies": {
     "dotenv": "^6.0.0",
     "email-validator": "^2.0.4",
