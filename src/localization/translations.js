@@ -37,14 +37,19 @@ module.exports = {
           main:
             'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Í hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.',
         },
+        fourth: {
+          header: '',
+          main:
+            'Upplýsingar um skráningu verða tilkynntar síðar.',
+        },
       },
       register: {
         name: 'Nafn',
         email: 'Netfang',
         interest: 'Áhugamál',
         submit: 'Skrá mig',
-        topText: 'Skráðu þig að neðan til þess að taka þátt',
-        thanks: 'Takk fyrir skráninguna',
+        topText: 'Skráðu þig til að fá fréttir af Reboot Hack',
+        thanks: 'Takk fyrir að skrá þig',
         fail: 'Eitthvað fór úrskeiðis, prófið aftur seinna',
         interestFields: [
           {
@@ -64,12 +69,16 @@ module.exports = {
             value: 'Bakendaforritun',
           },
           {
+            key: 15,
+            value: 'Netvinna (Computer Networking)',
+          },
+          {
             key: 5,
-            value: 'Gagnagrunnar',
+            value: 'Smáforrit (Application development)',
           },
           {
             key: 6,
-            value: 'Smáforrit (Application development)',
+            value: 'Gagnagrunnar',
           },
           {
             key: 7,
@@ -78,6 +87,14 @@ module.exports = {
           {
             key: 8,
             value: 'Gervigreind',
+          },
+          {
+            key: 16,
+            value: 'Tölvuöryggi',
+          },
+          {
+            key: 12,
+            value: 'Vélbúnaður',
           },
           {
             key: 9,
@@ -92,17 +109,14 @@ module.exports = {
             value: 'Markaðsfræði',
           },
           {
-            key: 12,
-            value: 'Fjármögnun',
-          },
-          {
             key: 13,
-            value: 'Verkefnastjórnunn',
+            value: 'Verkefnastjórnun',
           },
           {
             key: 14,
             value: 'Nýsköpun',
           },
+          
         ],
       },
     },
@@ -138,7 +152,7 @@ module.exports = {
       },
       question3: {
         text: 'Hvar og hvenær fer Reboot fram?',
-        answer: 'Reboot hack fer fram í Háskóla Íslands laugardaginn 15.febrúar til sunnudagsins 16.febrúar 2019.',
+        answer: 'Reboot hack fer fram í Háskóla Íslands laugardaginn 16. febrúar til sunnudagsins 17. febrúar 2019.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -166,7 +180,7 @@ module.exports = {
       },
       question10: {
         text: 'Siðareglur',
-        answer: 'Stefna okkar er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi LINK:siðareglum og skipuleggjendur munu sjá til þess að þeim verði framfylgt. ',
+        answer: 'Stefna okkar er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og skipuleggjendur munu sjá til þess að þeim verði framfylgt. ',
       },
       question11: {
         text: 'Þarf ég að vera þarna allan tímann?',
@@ -214,13 +228,19 @@ module.exports = {
           main:
             'We chose the name “Reboot Hack” for its symbolic meaning of starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  We are looking for companies who want to help us to empower accessibility in education and to keep up with the rapid advancements in tech in the Icelandic economy.',
         },
+        fourth: {
+          header: '',
+          main:
+            'Information on registration will be announced later.',
+        },
+        
       },
       register: {
         name: 'Name',
         email: 'Email',
         interest: 'Interests',
         submit: 'Register',
-        topText: 'Sign up bellow to join the fun',
+        topText: 'Sign up for news about Reboot Hack',
         thanks: 'Thanks for signing up',
         fail: 'Something went wrong, please try again later',
         interestFields: [
@@ -241,12 +261,16 @@ module.exports = {
             value: 'Back end development',
           },
           {
+            key: 15,
+            value: 'Computer Networking',
+          },
+          {
             key: 5,
-            value: 'Databases',
+            value: 'Application development',
           },
           {
             key: 6,
-            value: 'Application development',
+            value: 'Databases',
           },
           {
             key: 7,
@@ -255,6 +279,14 @@ module.exports = {
           {
             key: 8,
             value: 'Artificial Intelligence',
+          },
+          {
+            key: 16,
+            value: 'Cybersecurity',
+          },
+          {
+            key: 12,
+            value: 'Hardware',
           },
           {
             key: 9,
@@ -269,10 +301,6 @@ module.exports = {
             value: 'Marketing',
           },
           {
-            key: 12,
-            value: 'Raising funds',
-          },
-          {
             key: 13,
             value: 'Project management',
           },
@@ -280,6 +308,8 @@ module.exports = {
             key: 14,
             value: 'Start-ups',
           },
+          
+          
         ],
       },
     },
@@ -315,7 +345,7 @@ module.exports = {
       },
       question3: {
         text: 'When and where is the hackathon?',
-        answer: 'The hackathon is held in the University of Iceland Saturday 15th of Febuary to Sunday 16th of Febuary 2019.',
+        answer: 'The hackathon is held in the University of Iceland Saturday 16th of February to Sunday 17th of February 2019.',
       },
       question4: {
         text: 'Do I have to know how to code?',
@@ -339,7 +369,7 @@ module.exports = {
       },
       question9: {
         text: 'What’s the code of conduct',
-        answer: 'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone follows them.',
+        answer: 'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">code of conduct</a>. Organizers will make sure that everyone follows them.',
       },
       question10: {
         text: 'What about sleeping?',

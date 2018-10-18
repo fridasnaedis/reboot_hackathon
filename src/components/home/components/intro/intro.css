@@ -26,3 +26,9 @@
 .intro .image-container img {
   width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .intro .image-container {
+    background-color: rgb(255, 255, 255);
+  }
+}
