@@ -9,8 +9,6 @@ import App from './App';
 import rootReducer from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 
-const baseurl = process.env.REACT_APP_SUB_URL;
-
 export const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
