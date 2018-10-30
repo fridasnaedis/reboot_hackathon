@@ -6,6 +6,8 @@ import FillerImage from './components/fillerImage';
 import Translate from '../translate';
 import './home.css'
 
+const baseurl = process.env.REACT_APP_SUB_URL;
+
 class Home extends Component {
   render() {
     const { home } = this.props.translations;
@@ -16,12 +18,12 @@ class Home extends Component {
           header={home.detail.first.header}
           main={home.detail.first.main}
         />
-        <FillerImage imageUrl={'/images/uniice.jpg'}/>
+        <FillerImage imageUrl={`${baseurl}/images/uniice.jpg`} />
         <Detail
           header={home.detail.second.header}
           main={home.detail.second.main}
         />
-        <FillerImage imageUrl={'/images/ht.jpg'}/>
+        <FillerImage imageUrl={`${baseurl}/images/ht.jpg`} />
         <Detail
           header={home.detail.third.header}
           main={home.detail.third.main}

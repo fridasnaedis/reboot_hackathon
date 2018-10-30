@@ -9,6 +9,8 @@ import Footer from './components/footer';
 import Sponsors from './components/sponsors';
 import Faq from './components/faq';
 
+const baseurl = process.env.REACT_APP_SUB_URL;
+
 class App extends Component {
   render() {
     return (
@@ -19,10 +21,14 @@ class App extends Component {
 
         <section className="content">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/sponsors" component={Sponsors} />
-            <Route exact path="/faq" component={Faq} />
-            <Route exact path="/loading-test" component={LoadingShowcase} />
+            <Route exact path={`${baseurl}/sponsors`} component={Sponsors} />
+            <Route exact path={`${baseurl}/faq`} component={Faq} />
+            <Route
+              exact
+              path={`${baseurl}/loading-test`}
+              component={LoadingShowcase}
+            />
+            <Route exact path={`${baseurl}/`} component={Home} />
           </Switch>
         </section>
 
