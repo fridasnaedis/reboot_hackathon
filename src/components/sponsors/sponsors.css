@@ -54,7 +54,6 @@ span {
 
 .sponsor__content .sponsor__table tr *:not(:first-child) {
   width: 22%;
-  
 }
 
 @media screen and (max-width: 800px) {
@@ -68,6 +67,9 @@ span {
     text-overflow: ellipsis;
     white-space: nowrap;
     width: auto;
+  }
+  .sponsor__content .sponsor__table-header--price th {
+    font-size: 0.75em;
   }
 }
 

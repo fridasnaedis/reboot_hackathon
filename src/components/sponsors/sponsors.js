@@ -20,8 +20,8 @@ class Sponsors extends Component {
             </tr>
             <tr className="sponsor__table-header--price">
               <th> </th>
-              <th>100.000 kr</th>
-              <th>170.000 kr</th>
+              <th>75.000 kr</th>
+              <th>175.000 kr</th>
               <th>300.000 kr</th>
             </tr>
           </thead>
