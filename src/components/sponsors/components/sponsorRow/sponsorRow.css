@@ -1,0 +1,20 @@
+.sponsor--row td:first-child {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sponsor--row:hover {
+  /* background-color: pink !important; */
+  cursor: pointer;
+}
+
+.sponsor--row:hover td {
+  background-color: #ffb30d !important;
+}
+
+/* .sponsor--row-info__true{
+
+}
+
+.sponsor--row-info__false{
+
+} */

@@ -1,13 +1,15 @@
 .sponsor__content {
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 50px auto;
 
   display: flex;
   flex-direction: column;
 }
 
 .sponsor__content .sponsor__header {
-  color: #625892;
+  /* color: #625892; */
+  font-size: 2em;
+  padding: 20px 0;
 }
 
 span {
@@ -17,27 +19,27 @@ span {
 .sponsor__content .sponsor__table {
 }
 
-.sponsor__content .sponsor__table-header--category {
-  color: orange;
+.sponsor__content .sponsor__table-header--category th {
+  color: #ffb30d;
   font-size: 1.7em;
   font-weight: 800;
 }
 
 .sponsor__content .sponsor__table-header--price {
   background-color: #9186c6;
-  color: white;
-  font-size: 1.5em;
 }
 
 .sponsor__content .sponsor__table-header--price th {
+  color: white;
   font-family: sans-serif;
+  font-size: 1.5em;
 }
 
 .sponsor__content .sponsor__table tr {
   height: 50px;
 }
 
-.sponsor__content .sponsor__table tr td:nth-child(1) {
+.sponsor__content .sponsor__table .sponsor--row td:nth-child(1) {
   background-color: #9186c6;
   color: white;
   width: 34%;
@@ -48,12 +50,50 @@ span {
 .sponsor__content .sponsor__table tr td:not(:first-child) {
   background-color: #d9d5f1;
   color: #625892;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.sponsor--row-info__true td {
+  padding: 10px;
+  background-color: #625892;
+  color: white;
+  text-align: left;
 }
 
 .sponsor__content .sponsor__table tr *:not(:first-child) {
   width: 22%;
+}
+
+.sponsor__content .team-text {
+  padding: 10px;
+}
+
+.sponsor__content .team-text .team-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor__content .team-text .team-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor__content .additional__info {
+  width: 94%;
+  padding: 10px 3%;
+}
+
+@media screen and (min-width: 700px) {
+  .sponsor__content .team-text .team-about {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sponsor__content .team-text .team-photo {
+    width: 50%;
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 800px) {

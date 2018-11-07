@@ -1,0 +1,29 @@
+.sponsor-detail {
+  width: 94%;
+  padding: 0 3%;
+  margin: 2em 0 0 0;
+
+  transition: margin 0.5s ease;
+}
+
+.sponsor-detail .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  width: 100%;
+}
+
+.sponsor-detail .container h1 {
+  color: #ffb30d;
+}
+
+.details-black {
+  color: #2e2e2e;
+}
+
+@media screen and (min-width: 600px) {
+  .sponsor-detail .container {
+    max-width: 1200px;
+  }
+}
