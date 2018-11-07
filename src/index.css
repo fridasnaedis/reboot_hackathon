@@ -5,6 +5,8 @@ body {
   padding: 0;
   font-family: 'Raleway', sans-serif;
   height: 100%;
+  line-height: 1.5em;
+  color: #2e2e2e;
   background-color: #f8f7f5;
 }
 
@@ -13,6 +15,8 @@ h2,
 h3,
 th {
   font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+  color: #625892;
 }
 
 /*@media screen and (min-width: 600px)*/
