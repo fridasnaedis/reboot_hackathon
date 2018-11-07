@@ -15,12 +15,6 @@
   width: 100%;
 }
 
-
-
-.detail .container p {
-  line-height: 1.5em
-}
-
 @media screen and (min-width: 600px) {
   .detail .container {
     width: 70%;

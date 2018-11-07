@@ -47,7 +47,7 @@ class Intro extends Component {
 
     const introCss = css({
       height,
-      backgroundImage: this.state.bImage, //`url(${baseurl}/images/reykjavik-tabea-damm-unsplash.jpg)`,
+      backgroundImage: this.state.bImage,
     });
 
     return (

@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { css } from "glamor";
-import "./card.css";
-import Translate from "../translate";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { css } from 'glamor';
+import './card.css';
+import Translate from '../translate';
 
 class Card extends Component {
   static propTypes = {
-    text: PropTypes.string,
+    text: PropTypes.object,
   };
 
   createImage() {
@@ -37,7 +37,8 @@ class Card extends Component {
       <div className="card">
         {image}
         <div {...cardCss} className="card__text">
-          {text}
+          <h3 className="card__name">{text.name}</h3>
+          <div className="card__info">{text.info}</div>
         </div>
       </div>
     );

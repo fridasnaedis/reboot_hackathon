@@ -2,32 +2,30 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s;
-  /*border: 1px solid #9186c660;*/
-  box-shadow: 5px 5px 20px 1px #9186c6;
 }
 
 .card .card__image {
-  height: 150px;
-  background-color: pink;
-  overflow: hidden;
+  width: 80%;
+  margin: 10px;
 }
 
 .card .card__image img {
-  height: auto;
+  width: 100%;
+  min-width: 10px;
+  max-width: 200%;
+  border-radius: 50%;
 }
 
-.card .card__text {
-  padding: 15px;
+.card .card__text .card__name {
+  color: #625892;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin: 10px 0;
 }
 
-.card:hover,
-.card:focus {
-  transform: scale3d(1.01, 1.01, 1);
-}
-
-.card:hover::after,
-.card:focus::after {
-  opacity: 1;
+.card .card__text .card__info {
+  font-size: 1.2em;
 }
