@@ -18,21 +18,52 @@
   padding: 20px 0;
 }
 
-.footer .footer--info img{
+.footer .footer--info .footer--email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .footer--info .footer--email button {
+  margin: 0 10px;
+  padding: 5px;
+  border: 0;
+  background-color: #707070;
+  color: #dfdfdf;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+
+  -webkit-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+  -moz-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+  box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+}
+
+.footer .footer--info .footer--email button:hover {
+  color: #ffb30d;
+
+  /* transition-timing-function: ease-out; */
+}
+
+.footer .footer--info img {
   padding-top: 10px;
 }
 
-.footer .footer--sponsors .footer--sponsors-img{
+.footer .footer--sponsors .footer--sponsors-img {
   width: 30%;
   max-width: 200px;
 }
 
-.footer .footer--sponsors .footer--sponsors-img > div{
+.footer .footer--sponsors .footer--sponsors-img > div {
   width: 80%;
   padding: 10%;
 }
 
-.footer .footer--sponsors .footer--sponsors-img img{
+.footer .footer--sponsors .footer--sponsors-img img {
   /* height: 100px; */
   width: 100%;
 }
