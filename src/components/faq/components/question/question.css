@@ -4,20 +4,17 @@
   text-align: center;
   max-width: 1200px;
   width: 90%;
+  padding: 20px 0;
   margin-left: 5%;
-  
 }
 
 .question {
-  padding: 1em;
-  padding-bottom: 0;
   text-align: left;
   margin: 0;
   color: #625892;
 }
 
 .answer {
-  padding: 1em;
   text-align: left;
 }
 

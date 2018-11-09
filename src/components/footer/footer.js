@@ -27,9 +27,7 @@ class Footer extends Component {
         <div className="footer--info">
           <div className="footer--email">
             <p>reboothackiceland@gmail.com</p>
-            {/* Logical shortcut for only displaying the 
-            button if the copy command exists */
-            'clipboard' in navigator && (
+            {/* Clipboard handler*/ 'clipboard' in navigator && (
               <div>
                 <button
                   onClick={() => {
@@ -37,9 +35,17 @@ class Footer extends Component {
                     this.setState(state => ({
                       copied: 'Copied!',
                     }));
+                    setTimeout(
+                      function() {
+                        this.setState(state => ({
+                          copied: '',
+                        }));
+                      }.bind(this),
+                      3000
+                    );
                   }}
                 >
-                  Copy email
+                  <span className="glyphicon glyphicon-copy" />
                 </button>
               </div>
             )}

@@ -1,6 +1,6 @@
 .sponsor__content {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 20px auto;
 
   display: flex;
   flex-direction: column;
@@ -10,13 +10,18 @@
   /* color: #625892; */
   font-size: 2em;
   padding: 20px 0;
+  margin: 0;
+}
+.sponsor__content .sponsor__main__header {
+  font-size: 2.5em;
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 800px;
+  text-align: center;
 }
 
 span {
   color: #625892;
-}
-
-.sponsor__content .sponsor__table {
 }
 
 .sponsor__content .sponsor__table-header--category th {
@@ -61,6 +66,12 @@ span {
   text-align: left;
 }
 
+.sponsor__content .sponsor__table-header--price th:nth-child(1) {
+  padding-left: 10px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .sponsor__content .sponsor__table tr *:not(:first-child) {
   width: 22%;
 }
@@ -82,6 +93,10 @@ span {
 .sponsor__content .additional__info {
   width: 94%;
   padding: 10px 3%;
+}
+.sponsor__content .additional__info__second {
+  width: 94%;
+  padding: 100px 3% 10px 3%;
 }
 
 @media screen and (min-width: 700px) {

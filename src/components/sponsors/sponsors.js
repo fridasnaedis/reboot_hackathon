@@ -3,7 +3,7 @@ import SponsorRow from './components/sponsorRow';
 import SponsorDetail from './components/sponsor-detail';
 import './sponsors.css';
 import Translate from '../translate';
-import HeaderImage from '../headerImage';
+// import HeaderImage from '../headerImage';
 
 class Sponsors extends Component {
   render() {
@@ -11,21 +11,10 @@ class Sponsors extends Component {
     const { table } = sponsors;
     return (
       <div>
-        <HeaderImage text={sponsors.header} image="ht_orange_blur2.jpg" />
+        {/* <HeaderImage text={sponsors.header} image="ht_orange_blur2.jpg" /> */}
 
         <div className="sponsor__content">
-          <SponsorDetail
-            header={sponsors.details.reload.header}
-            main={sponsors.details.reload.main}
-          />
-          <SponsorDetail
-            header={sponsors.details.restart.header}
-            main={sponsors.details.restart.main}
-          />
-          <SponsorDetail
-            header={sponsors.details.reboot.header}
-            main={sponsors.details.reboot.main}
-          />
+          {/* <h1 className="sponsor__main__header">{sponsors.header}</h1> */}
           <h2 className="sponsor__header">{sponsors.tableHeader}</h2>
           <table className="sponsor__table">
             <thead className="sponsor__table-header">
@@ -39,7 +28,7 @@ class Sponsors extends Component {
                 </th>
               </tr>
               <tr className="sponsor__table-header--price">
-                <th> </th>
+                <th>{table.r0}</th>
                 <th>75.000 kr</th>
                 <th>175.000 kr</th>
                 <th>300.000 kr</th>
@@ -47,7 +36,7 @@ class Sponsors extends Component {
             </thead>
             <tbody>
               <SponsorRow text={table.r1} values={['X', 'X', '']} />
-              <SponsorRow text={table.r2} values={['X*', 'X*', 'X**']} />
+              <SponsorRow text={table.r2} values={['X', 'X', 'X']} />
               <SponsorRow text={table.r3} values={['X', 'X', 'X']} />
               <SponsorRow text={table.r4} values={['', 'X', 'X']} />
               <SponsorRow text={table.r5} values={['', 'X', 'X']} />
@@ -61,11 +50,22 @@ class Sponsors extends Component {
               <SponsorRow text={table.r10} values={['', '', 'X']} />
             </tbody>
           </table>
-          <p className="additional__info">
-            Finni fyrirtæki sig ekki innan fyrrnefndra verðflokka vinsamlegast
-            hafið samband við teymið. Við munum leggja okkur allar fram til þess
-            að finna lausn á því svo þið getið hjálpað okkur að gera Reboot Hack
-            að raunveruleika.
+          <p className="additional__info">{sponsors.additionalinfo.first}</p>
+
+          <SponsorDetail
+            header={sponsors.details.reload.header}
+            main={sponsors.details.reload.main}
+          />
+          <SponsorDetail
+            header={sponsors.details.restart.header}
+            main={sponsors.details.restart.main}
+          />
+          <SponsorDetail
+            header={sponsors.details.reboot.header}
+            main={sponsors.details.reboot.main}
+          />
+          <p className="additional__info__second">
+            {sponsors.additionalinfo.second}
           </p>
           {/* <div className="team-text">
           <div className="container">

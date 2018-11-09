@@ -6,6 +6,7 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
+import ScrollToTop from './components/scrollToTop';
 import rootReducer from './reducers';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -15,7 +16,9 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       {/* <BrowserRouter> */}
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </BrowserRouter>
   </Provider>,
   document.getElementById('root')

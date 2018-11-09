@@ -23,13 +23,16 @@
   flex-direction: row;
   justify-content: center;
 }
+.footer .footer--info .footer--email span {
+  background-color: rgb(87, 83, 82) !important;
+  color: #dfdfdf !important;
+}
 
 .footer .footer--info .footer--email button {
-  margin: 0 10px;
-  padding: 5px;
+  /* padding: 5px; */
   border: 0;
-  background-color: #707070;
-  color: #dfdfdf;
+  background-color: transparent;
+  color: #dfdfdf !important;
   cursor: pointer;
 
   display: flex;
@@ -61,6 +64,7 @@
 .footer .footer--sponsors .footer--sponsors-img > div {
   width: 80%;
   padding: 10%;
+  margin: 0 auto;
 }
 
 .footer .footer--sponsors .footer--sponsors-img img {

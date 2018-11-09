@@ -21,11 +21,11 @@
 
 .card .card__text .card__name {
   color: #625892;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 800;
   margin: 10px 0;
 }
 
 .card .card__text .card__info {
-  font-size: 1.2em;
+  font-size: 1em;
 }
