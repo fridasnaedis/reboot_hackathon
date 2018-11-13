@@ -20,35 +20,34 @@
 
 .footer .footer--info .footer--email {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-}
-.footer .footer--info .footer--email span {
-  background-color: rgb(87, 83, 82) !important;
-  color: #dfdfdf !important;
 }
 
 .footer .footer--info .footer--email button {
-  /* padding: 5px; */
+  padding: 5px;
   border: 0;
+  width: 200px;
+  font-size: 1.1em;
+  font-family: 'Raleway', sans-serif;
   background-color: transparent;
   color: #dfdfdf !important;
   cursor: pointer;
 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.3s;
-
-  -webkit-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
-  -moz-box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
-  box-shadow: 11px 11px 44px -12px rgba(115, 115, 115, 1);
+  margin: 0 auto;
 }
 
-.footer .footer--info .footer--email button:hover {
-  color: #ffb30d;
+.footer .footer--info .footer--email .footer-copy-text {
+  visibility: hidden;
+  /* transition-timing-function: ease-out; */
+}
 
+.footer .footer--info .footer--email:hover .footer-copy-text {
+  visibility: visible;
+  color: #ffb30d;
   /* transition-timing-function: ease-out; */
 }
 

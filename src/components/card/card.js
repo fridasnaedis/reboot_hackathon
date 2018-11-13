@@ -37,7 +37,9 @@ class Card extends Component {
       <div className="card">
         {image}
         <div {...cardCss} className="card__text">
-          <h3 className="card__name">{text.name}</h3>
+          <a href={text.link} rel="noopener noreferrer" target="_blank">
+            <h3 className="card__name">{text.name}</h3>
+          </a>
           <div className="card__info">{text.info}</div>
         </div>
       </div>

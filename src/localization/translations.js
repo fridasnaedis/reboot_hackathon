@@ -19,31 +19,34 @@ module.exports = {
         first: {
           name: 'Fríða Snædís Jóhannesdóttir',
           info: 'Forritun & grafík',
+          link: 'https://www.linkedin.com/in/fridasnaedis/',
         },
         second: {
           name: 'Kristjana Björk Barðdal',
           info: 'Almannatengsl & markaðsmál',
+          link: 'https://www.linkedin.com/in/kristjanabb/',
         },
         third: {
           name: 'Sara Björk Másdóttir',
           info: 'Verkefnastýring & fjármál',
+          link: 'https://www.linkedin.com/in/sara-mars/',
         },
       },
       detail: {
         first: {
           header: 'Hackathon á Íslandi',
           main:
-            'Reboot Hack er fyrsta hackathon á Íslandi sem er fyrir nemendur og er skipulagt af nemendum. Skipuleggjendur eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands. Þær hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnan á að fá yfir 100 þáttakendur frá Íslandi og öðrum þjóðum til þess að taka þátt. ',
+            'Reboot Hack er fyrsta hackathon á Íslandi sem er bæði fyrir nemendur og skipulagt af nemendum. Skipuleggjendur eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands. Þær hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnan á að fá yfir 100 þátttakendur frá Íslandi og öðrum þjóðum.',
         },
         second: {
           header: 'Hackathon',
           main:
-            'Hackathon snýst ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningarmaraþon eða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þáttakendur fá rými til þess að læra, byggja og skapa. Þáttakendur keppa saman í hóp og vinna í rúma 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
+            'Hackathon snýst ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon eða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, byggja og skapa. <br> <br> Þátttakendur keppa saman í hópum og vinna í 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
         third: {
           header: 'Reboot Hack',
           main:
-            'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Í hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.',
+            'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Í hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins. ',
         },
         fourth: {
           header: '',
@@ -141,37 +144,37 @@ module.exports = {
         r2: {
           title: 'Merki fyrirtækis á markaðs/kynningarefni*',
           info:
-            'Merki (logo) fyrirtækja verða á markaðs- og kynningarefni Reboot hack. Því efni er dreift á samfélagsmiðla Reboot Hack ásamt því að vera á auglýsingum fyrir viðburðinn sem verður t.d. í formi plaggata í öllum helstu háskólum landsins.',
+            'Merki (logo) fyrirtækja verða á markaðs- og kynningarefni Reboot hack *en verðflokkur fyrirtækis segir til um tíðni og sýnileika merkisins á markaðs- og kynningarefni. Því efni er dreift á samfélagsmiðla Reboot Hack ásamt því að vera á heimasíðu viðburðsins og á auglýsingum fyrir viðburðinn sem verður t.d. í formi plaggata í öllum helstu háskólum landsins.',
         },
         r3: {
           title: 'Verðlaun/veitingar í nafni fyrirtækis',
           info:
-            'Fyrirtæki í verðflokkunum Re:start og Rebbot leggja fram tækni og árskoranir. Fyrir bestu lausn þeirra áskorana fær viðkomandi lið sérstaka viðurkenningu í formi verðlauna sem fyrirtækið styrkir.',
+            'Fyrirtæki í öllum verðflokkum gefst tækifæri á því að styrkja verðlaun/veitingar sem yrði auglýst í nafni fyrirtækisins. Verðlaun verða veitt fyrir efstu þrjú sæti miðað við frammistöðu á hachkathon-inu óháð hvaða tækni og áskoranir liðið hafa valið ásamt öðrum flokkum.',
         },
         r4: {
           title: 'Leggja fram tækni og áskoranir',
           info:
-            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því að  leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu fyrir þátttakendur að leysa.',
+            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því að leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu fyrir þátttakendur að nýta og eða leysa. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna fær viðkomandi lið sérstaka viðurkenningu í formi verðlauna sem fyrirtækið veitir. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) ',
         },
         r5: {
           title: 'Mentorar frá fyrirtæki á viðburði',
           info:
-            'Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins til þess að vera með kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack. Við hetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum.',
+            'Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Hlutverk mentora er því að koma til skila tæknilegum upplýsingum og verða því að þekkja til viðeigandi tækni og áskorana.',
         },
         r6: {
           title: 'Dreifa markaðsefni á viðburði',
           info:
-            'Fyrirtæki í verðflokkunum Re:start og Reboot gefst tækifæri á því dreifa viðeigandi markaðsefni til þáttakenda á viðburðinum.',
+            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því dreifa viðeigandi markaðsefni til þátttakenda á viðburðinum.',
         },
         r7: {
           title: 'Kynningarslot í vinnustofu',
           info:
-            'Fyrirtæki í verðflokknum Re:start fá 15-20 mínutna slot  fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Fyrirtæki í verðflokknum Re:boot fá 30-45 mínútna slot. Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Á sama tíma gefst tækifæri til þess að kynna framúrskarandi tækni og vörur fyrirtækisins  fyrir mögulegum framtíðarstarfsfólki og eða viðskiptavinum. ',
+            'Fyrirtæki í verðflokknum Re:start fá 15-20 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Fyrirtæki í verðflokknum Re:boot fá 30-45 mínútna slot. Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Á sama tíma gefst tækifæri til þess að kynna framúrskarandi tækni og vörur fyrirtækisins  fyrir mögulegum framtíðarstarfsfólki og eða viðskiptavinum.',
         },
         r8: {
           title: 'Ávarp á setningarathöfn og verðlaunaafhendingu',
           info:
-            'Re:boot samstarfsaðilar tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á verðlaunaafhendingunni. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum.',
+            'Re:boot samstarfsaðilar fá tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á formlegri verðlaunaafhendingu Reboot Hack sem fer fram á UTmessunni í Hörpu þann 9. febrúar. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum.',
         },
         r9: {
           title: 'Sæti í dómnefnd',
@@ -195,7 +198,7 @@ module.exports = {
           header:
             'Re:start <span>- taktu samstarfið skrefinu lengra! (5-8 pláss)</span>',
           main:
-            'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack. Fyrirtækið veitir einnig sérstaka viðurkenningu fyrir bestu úrlausn fyrirlagðar tækni og eða áskorunar. Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og verðlaunaafhendingu viðburðins.',
+            'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack.  Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna veitir fyrirtækið viðkomandi lið sérstaka viðurkenningu í formi verðlauna. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og formlegri verðlaunaafhendingu viðburðins sem fer fram á UTmessunni í Hörpu þann 9. febrúar.',
         },
         reboot: {
           header:
@@ -222,37 +225,37 @@ module.exports = {
       question1: {
         text: 'Hvað er hackathon?',
         answer:
-          'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinninga-maraþon þar sem þáttakendur fá rými til þess að læra, byggja og skapa. Nemendur keppa saman í hóp að hámarki 5 manns og vinna í rúma 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
+          'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til þess að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp, og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
       },
       question2: {
         text: 'Fyrir hverja er þetta?',
         answer:
-          'Reboot hack er fyrir alla háskólanema, hvort sem að þú ert að læra á Íslandi eða í öðrum löndum. Það er jafnframt ekki gerð krafa um að þátttakendur séu í tæknitengdu námi. Það sem skiptir meira máli er að þú hafir áhuga á sköpunarferlinu bakvið nýja tækni. Hvort sem það er að forrita, skipuleggja eða hanna.',
+          'Reboot Hack er fyrir alla háskólanema, hvort sem að þú ert að læra á Íslandi eða í öðrum löndum. Háskólanemar eru þeir nemendur sem eru skráðir í háskóla og eða hafa nýlega lokið háskólanámi. Það er jafnframt ekki gerð krafa um að þátttakendur séu í tæknitengdu námi. Það sem skiptir meira máli er að þú hafir áhuga á sköpunarferlinu bakvið nýja tækni. Hvort sem það er að forrita, skipuleggja eða hanna.',
       },
       question3: {
-        text: 'Hvar og hvenær fer Reboot fram?',
+        text: 'Hvar og hvenær fer Reboot Hack fram?',
         answer:
-          'Reboot hack fer fram í Háskóla Íslands laugardaginn 16. febrúar til sunnudagsins 17. febrúar 2019.',
+          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík og fer fram laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formel verðlaunaafhending fer síðan fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
         answer:
-          'Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi. Forritunarþekking er ekki nauðsynleg en við leggjum til að við teymismyndun (sem verður vettvangur fyrir á laugardagsmorgni) sé að minnsta kosti einn aðili sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd verkefnisins. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu teymunum.',
+          'Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi. Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun,  en vettvangur verður fyrir það á laugardagsmorgni, 2. febrúar. Gert er ráð fyrir að það sé að minnsta kosti einn aðili í liðinu sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd lausnarinnar. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum.',
       },
       question5: {
-        text: 'Af hverju Reboot?',
+        text: 'Af hverju varð Reboot Hack til?',
         answer:
           'Reboot er fyrsta hackathon á Íslandi skipulagt af nemendum fyrir nemendur. Það sem gerir þetta hackathon sérstakt er að mesta áherslan er ekki lögð á niðurstöðurnar heldur ferlið sjálft. Markmiðið er fyrst og fremst skapandi og lærdómsrík reynsla.',
       },
       question6: {
         text: 'Hvað ef ég er ekki með, eða vil ekki vera í teymi?',
         answer:
-          'Ekki örvænta! Þáttakendur fá tækifæri til þess að para sig saman í teymi áður en að keppnin hefst og við munum passa uppá það að allir finni sér lið! Ef að þú kýst frekar að vinna einn þá er það velkomið.',
+          'Ekki örvænta! Þátttakendur fá tækifæri til þess að para sig saman í liði áður en að keppnin hefst og við munum passa uppá það að allir finni sér lið! Ef að þú kýst frekar að vinna ein/n þá er það velkomið. Lið geta verið samsett af allt að 5 þátttakendum.',
       },
       question7: {
-        text: 'Hvað kostar?',
+        text: 'Kostar eitthvað að taka þátt?',
         answer:
-          'Ekkert! Þökk sé samstarfs- og styrktaraðilum okkar getum við haldið Reboot hack án endurgjalds!',
+          'Ekkert. Þökk sé samstarfs- og styrktaraðilum okkar getum við haldið Reboot Hack án endurgjalds!',
       },
       question8: {
         text: 'Hvað með mat og drykk?',
@@ -260,24 +263,29 @@ module.exports = {
           'Það verður boðið upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina til þess að halda öllum gangandi.',
       },
       question9: {
-        text: 'Má byrja að vinna í verkefni fyrir hackathon-ið?',
+        text: 'Má byrja að vinna með tækni og áskoranir fyrir hackathon-ið?',
         answer:
-          'Nei, öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasafni (library), frameworks og sniðmátum (template) er leyfileg.',
+          'Öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasöfnum (library), frameworks og sniðmátum (templates)  er leyfileg.',
       },
       question10: {
-        text: 'Siðareglur',
+        text: 'Hverjar eru siðareglur Reboot Hack?',
         answer:
-          'Stefna okkar er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og skipuleggjendur munu sjá til þess að þeim verði framfylgt. ',
+          'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og  og skipuleggjendur munu sjá til þess að þeim verði framfylgt.',
       },
       question11: {
         text: 'Þarf ég að vera þarna allan tímann?',
         answer:
-          'Nei þér er velkomið að koma og fara eins og þú vilt þó svo að við hvetjum þig til þess að fullnýta tímann sem þið hafið til þess að móta, þróa og útfæra hugmyndina ykkar.',
+          'Nei þér er velkomið að koma og fara eins og þú vilt þó svo að við hvetjum þig til þess að fullnýta tímann sem þið hafið til þess að móta, þróa og útfæra hugmyndina ykkar. Hægt verður að dvelja á staðnum yfir nóttu og boðið verður upp á létt snarl og drykki til þess að halda orkunni uppi.',
       },
       question12: {
-        text: 'Hvað á ég að taka með?',
+        text: 'Hvað á ég að taka með mér?',
         answer:
-          'Persónuskilríki, fartölvu, hleðslutæki, svefnpoka (ef þú ætlar þér að sofa) ásamt snyrtivörum til að fríska upp á sig í gegnum helgina!',
+          'Persónuskilríki, fartölvu, hleðslutæki, svefnpoka (ef þú ætlar þér að leggja þig á staðnum) ásamt hreinlætisvörur til að fríska upp á sig í gegnum helgina!',
+      },
+      question13: {
+        text: 'Hvernig er aðgengi á staðnum?',
+        answer:
+          'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
       },
     },
   },
@@ -519,7 +527,7 @@ module.exports = {
       question4: {
         text: 'Do I have to know how to code?',
         answer:
-          'No requirement is made, we only suggest that when forming teams before or on site (there will be a team formation on saturday morning) that at least one person has some basic coding knowledge. We encourage students studying non tech related fields to join since there is a lot of work to be done just coming up with ideas, thinking about the applications of the project and creating designing  that makes your presentation stand out! A good team is balanced and diverse.',
+          'No requirement is made, we only suggest that when forming teams before or on-site (there will be a team formation on Saturday morning) that at least one person has some basic coding knowledge. We encourage students studying non-tech related fields to join since there is a lot of work to be done just coming up with ideas, thinking about the applications of the project and creating designing that makes your presentation stand out! A good team is balanced and diverse. ',
       },
       question5: {
         text: 'Who can attend?',

@@ -8,7 +8,7 @@ class Footer extends Component {
     super(props);
     this.state = {
       email: 'reboothackiceland@gmail.com',
-      copied: '',
+      copied: 'Copy',
     };
   }
   render() {
@@ -26,31 +26,29 @@ class Footer extends Component {
         </div>
         <div className="footer--info">
           <div className="footer--email">
-            <p>reboothackiceland@gmail.com</p>
             {/* Clipboard handler*/ 'clipboard' in navigator && (
-              <div>
-                <button
-                  onClick={() => {
-                    navigator.clipboard.writeText(this.state.email);
-                    this.setState(state => ({
-                      copied: 'Copied!',
-                    }));
-                    setTimeout(
-                      function() {
-                        this.setState(state => ({
-                          copied: '',
-                        }));
-                      }.bind(this),
-                      3000
-                    );
-                  }}
-                >
-                  <span className="glyphicon glyphicon-copy" />
-                </button>
-              </div>
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText(this.state.email);
+                  this.setState(state => ({
+                    copied: 'Copied!',
+                  }));
+                  setTimeout(
+                    function() {
+                      this.setState(state => ({
+                        copied: 'Copy',
+                      }));
+                    }.bind(this),
+                    3000
+                  );
+                }}
+              >
+                <p>reboothackiceland@gmail.com</p>
+              </button>
             )}
+            <div className="footer-copy-text">{this.state.copied}</div>
           </div>
-          <div>{this.state.copied}</div>
+
           <a
             href="https://github.com/KetillG/simple_hackathon"
             rel="noopener noreferrer"

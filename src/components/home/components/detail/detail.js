@@ -8,8 +8,7 @@ class Detail extends Component {
         <div className="container">
           <div className="why">
             <h1>{header}</h1>
-            <p>{main}</p>
-            {/* <p dangerouslySetInnerHTML={{ __html: main }} /> */}
+            <p dangerouslySetInnerHTML={{ __html: main }} />
           </div>
         </div>
       </div>
