@@ -8,7 +8,7 @@ class Footer extends Component {
     super(props);
     this.state = {
       email: 'reboothackiceland@gmail.com',
-      copied: 'Copy',
+      copied: 'Click to copy',
     };
   }
   render() {
@@ -36,7 +36,7 @@ class Footer extends Component {
                   setTimeout(
                     function() {
                       this.setState(state => ({
-                        copied: 'Copy',
+                        copied: 'Click to copy',
                       }));
                     }.bind(this),
                     3000

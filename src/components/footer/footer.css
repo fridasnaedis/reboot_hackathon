@@ -41,12 +41,13 @@
 }
 
 .footer .footer--info .footer--email .footer-copy-text {
-  visibility: hidden;
+  color: #ffb20d00;
+  transition: color 0.2s ease-out;
   /* transition-timing-function: ease-out; */
 }
 
-.footer .footer--info .footer--email:hover .footer-copy-text {
-  visibility: visible;
+.footer .footer--info .footer--email button:hover + .footer-copy-text {
+  /* visibility: visible; */
   color: #ffb30d;
   /* transition-timing-function: ease-out; */
 }
