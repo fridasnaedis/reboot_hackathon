@@ -30,9 +30,9 @@ class Home extends Component {
           header={home.detail.third.header}
           main={home.detail.third.main}
         />
-        <div className="info__later">
+        {/* <div className="info__later">
           <p>{home.detail.fourth.main}</p>
-        </div>
+        </div> */}
         <Info />
         <Register />
       </div>
