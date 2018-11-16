@@ -1,8 +1,8 @@
-import { request } from "../api";
+import { request } from '../api';
 
-export const SIGNUP_STARTED = "SIGNUP_STARTED";
-export const SIGNUP_FAILED = "SIGNUP_FAILED";
-export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_STARTED = 'SIGNUP_STARTED';
+export const SIGNUP_FAILED = 'SIGNUP_FAILED';
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
 
 const signupStarted = () => {
   return {
@@ -34,7 +34,7 @@ export const signup = ({ data } = {}) => {
 
     let result;
     try {
-      result = await request({ method: "POST", endpoint: "signup", data });
+      result = await request({ method: 'POST', endpoint: 'signup', data });
     } catch (e) {
       return dispatch(signupFailed(e));
     }
