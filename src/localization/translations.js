@@ -57,8 +57,8 @@ module.exports = {
         name: 'Nafn',
         email: 'Netfang',
         interest: 'Áhugamál',
-        submit: 'Skrá mig',
-        topText: 'Skráðu þig til að fá fréttir af Reboot Hack',
+        submit: 'Forskrá',
+        topText: 'Forskráðu þig og fáðu fréttir af Reboot Hack',
         thanks: 'Takk fyrir að skrá þig',
         fail: 'Eitthvað fór úrskeiðis, prófið aftur seinna',
         interestFields: [
@@ -344,8 +344,8 @@ module.exports = {
         name: 'Name',
         email: 'Email',
         interest: 'Interests',
-        submit: 'Register',
-        topText: 'Sign up for news about Reboot Hack',
+        submit: 'Preregister',
+        topText: 'Preregister and get news about Reboot Hack',
         thanks: 'Thanks for signing up',
         fail: 'Something went wrong, please try again later',
         interestFields: [
