@@ -28,7 +28,7 @@ module.exports = {
         },
         third: {
           name: 'Sara Björk Másdóttir',
-          info: 'Verkefnastýring & fjármál',
+          info: 'Verkefnastýring',
           link: 'https://www.linkedin.com/in/sara-mars/',
         },
       },
@@ -36,17 +36,17 @@ module.exports = {
         first: {
           header: 'Hackathon á Íslandi',
           main:
-            'Reboot Hack er fyrsta hackathon á Íslandi sem er bæði fyrir nemendur og skipulagt af nemendum. Skipuleggjendur eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands. Þær hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnan á að fá yfir 100 þátttakendur frá Íslandi og öðrum þjóðum.',
+            'Reboot Hack er fyrsta hackathon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hackathon menning hefur skapast á Íslandi en hackathon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hackathon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
         },
         second: {
           header: 'Hackathon',
           main:
-            'Hackathon snýst ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon eða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, byggja og skapa. <br> <br> Þátttakendur keppa saman í hópum og vinna í 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
+            'Hackathon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. <br> <br> Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
         third: {
           header: 'Reboot Hack',
           main:
-            'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Í hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins. ',
+            'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Á hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.  Teymið á bakvið Reboot Hack  eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands sem hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins.',
         },
         fourth: {
           header: '',
@@ -144,7 +144,7 @@ module.exports = {
         r2: {
           title: 'Merki fyrirtækis á markaðs/kynningarefni*',
           info:
-            'Merki (logo) fyrirtækja verða á markaðs- og kynningarefni Reboot hack *en verðflokkur fyrirtækis segir til um tíðni og sýnileika merkisins á markaðs- og kynningarefni. Því efni er dreift á samfélagsmiðla Reboot Hack ásamt því að vera á heimasíðu viðburðsins og á auglýsingum fyrir viðburðinn sem verður t.d. í formi plaggata í öllum helstu háskólum landsins.',
+            'Merki (logo) fyrirtækja verða á markaðs- og kynningarefni Reboot Hack *en verðflokkur fyrirtækis segir til um tíðni og sýnileika merkisins á markaðs- og kynningarefni. Því efni er dreift á samfélagsmiðla Reboot Hack ásamt því að vera á heimasíðu viðburðsins og á auglýsingum fyrir viðburðinn sem verður t.d. í formi plaggata í öllum helstu háskólum landsins.',
         },
         r3: {
           title: 'Verðlaun/veitingar í nafni fyrirtækis',
@@ -210,7 +210,7 @@ module.exports = {
       team: {
         header: 'Teymið',
         main:
-          'Við eru allar nemendur í tölvunarfræði við Háskóla Íslands og höfum reynslu af bæði nefndar- og félagsstörfum innan og utan háskólans. Skipulagning Reboot hack er lokaverkefni okkar innan IVT-deildar háskólans.',
+          'Við eru allar nemendur í tölvunarfræði við Háskóla Íslands og höfum reynslu af bæði nefndar- og félagsstörfum innan og utan háskólans. Skipulagning Reboot Hack er lokaverkefni okkar innan IVT-deildar háskólans.',
       },
       additionalinfo: {
         first:
@@ -235,7 +235,7 @@ module.exports = {
       question3: {
         text: 'Hvar og hvenær fer Reboot Hack fram?',
         answer:
-          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík og fer fram laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formel verðlaunaafhending fer síðan fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
+          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík og fer fram laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaafhending fer síðan fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -316,24 +316,24 @@ module.exports = {
         },
         third: {
           name: 'Sara Björk Másdóttir',
-          info: 'Project management & finance',
+          info: 'Project management',
         },
       },
       detail: {
         first: {
           header: 'Hackathon in Iceland ',
           main:
-            'Reboot Hack is the first ever student organized, hackathon for students in Iceland. Reboot hack’s organizers are three computer science and industrial engineering student at the University of Iceland. They all have experience in event planning as well as ______. The hackathon will be held in the University of Iceland and the goal is to have over 100 participants take part in Reboot Hack.',
+            'Reboot Hack is the first ever student organized hackathon for students in Iceland. The hackathon will be held in the University of Iceland and the goal is to have over 100 participants. Hackathons have been missing from Icelandic culture. Reboot Hack aims to bring the hacker culture from Europe and America to Icelandic students.',
         },
         second: {
           header: 'Hackathon',
           main:
-            'Hackathons are not about “hacking” but creating. You can think of a Hackathon  as an invention marathon, where participants get space to learn, build and create. Students compete in a group of 2-5 and work for over 24 hours to develop an idea / technology solution entirely from scratch. The product may be in the form of a website, small application or any other technology.  Hackathons are a great way for students to increase skills and proficiency  in various areas.',
+            'Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where participants get space to learn, build and create. <br> <br>  Students compete in groups and work for over 24 hours to develop an idea/technological solution from scratch. The product can be a website, small application or any other technology.  Reboot Hack is organized by students for students and is completely free to attend',
         },
         third: {
           header: 'Reboot Hack',
           main:
-            'We chose the name “Reboot Hack” for its symbolic meaning of starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  We are looking for companies who want to help us to empower accessibility in education and to keep up with the rapid advancements in tech in the Icelandic economy.',
+            'The hackathon is called “Reboot Hack” and the name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s team  are three computer science and industrial engineering students at the University of Iceland. They all have experience in student associations as well as other organizational activities.',
         },
         fourth: {
           header: '',
@@ -431,7 +431,7 @@ module.exports = {
         r2: {
           title: 'Logo on promotion material*',
           info:
-            "The company's logo will be on promotional material. The logo's appearance frequency will depend on the companies brackets. Advertisements for Reboot hack will be at every major university in Iceland. Other promotional material will be on Reboot Hack’s social media and website.",
+            "The company's logo will be on promotional material. The logo's appearance frequency will depend on the companies brackets. Advertisements for Reboot Hack will be at every major university in Iceland. Other promotional material will be on Reboot Hack’s social media and website.",
         },
         r3: {
           title: 'Price/catering on behalf of the company',
@@ -517,7 +517,7 @@ module.exports = {
       question2: {
         text: 'Why Reboot?',
         answer:
-          'Ever been to a hackathon in Iceland? Probably not since Reboot hack is the first student hackathon in Iceland!',
+          'Ever been to a hackathon in Iceland? Probably not since Reboot Hack is the first student hackathon in Iceland!',
       },
       question3: {
         text: 'When and where is the hackathon?',
@@ -542,7 +542,7 @@ module.exports = {
       question7: {
         text: 'Does it cost anything?',
         answer:
-          'Nope, thanks to our sponsors Reboot hack is totally free to attend! ',
+          'Nope, thanks to our sponsors Reboot Hack is totally free to attend! ',
       },
       question8: {
         text: 'Will there be food and drinks?',

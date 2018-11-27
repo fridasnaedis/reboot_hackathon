@@ -128,11 +128,15 @@ span {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .sponsor__content .sponsor__table tr td:nth-child(1) {
+@media screen and (max-width: 415px) {
+  .sponsor__content .sponsor__table-header--category th {
+    font-size: 1em;
+  }
+
+  /*.sponsor__content .sponsor__table tr td:nth-child(1) {
     max-width: 100px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-  }
+  }*/
 }

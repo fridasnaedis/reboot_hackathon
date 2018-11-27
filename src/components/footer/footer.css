@@ -7,12 +7,33 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: auto;
 }
 
-/* .footer .footer--sponsors img {
-  height: 100px;
+.footer .footer--sponsors-img {
+  max-height: 100px;
   margin: 20px;
-} */
+  padding: 0;
+}
+
+.footer .footer--sponsors-img img {
+  max-height: 90px;
+  width: 100%;
+}
+
+@media screen and (min-width: 470px) {
+  .footer .footer--sponsors {
+    max-width: 470px;
+  }
+
+  .footer .footer--sponsors-img {
+    height: 100px;
+  }
+
+  .footer .footer--sponsors-img img {
+    height: 90px;
+  }
+}
 
 .footer .footer--info {
   padding: 20px 0;

@@ -16,12 +16,34 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer--sponsors">
           <div className="footer--sponsors-img">
-            <div>
+            <a
+              href="https://www.sky.is/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src={`${baseurl}/images/sky.png`} alt="Ský logo" />
+            </a>
+          </div>
+          <div className="footer--sponsors-img">
+            <a
+              href="https://www.hi.is/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <img
                 src={`${baseurl}/images/ImgTwo.png`}
                 alt="University of Iceland logo"
               />
-            </div>
+            </a>
+          </div>
+          <div className="footer--sponsors-img">
+            <a
+              href="https://www.utmessan.is/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src={`${baseurl}/images/UT-logo.png`} alt="UT messan logo" />
+            </a>
           </div>
         </div>
         <div className="footer--info">
