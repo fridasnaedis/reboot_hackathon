@@ -3,7 +3,14 @@ import './customCheckbox.css';
 
 class CustomCheckbox extends Component {
   render() {
-    const { text } = this.props;
+    const { text, useLinks } = this.props;
+
+    const textValue = useLinks ? (
+      <p className="" dangerouslySetInnerHTML={{ __html: text }} />
+    ) : (
+      <label htmlFor={text}>{text}</label>
+    );
+
     return (
       <div className="item">
         <input
@@ -13,7 +20,7 @@ class CustomCheckbox extends Component {
           name={text}
           value={text}
         />
-        <label htmlFor={text}>{text}</label>
+        <label htmlFor={text}>{textValue}</label>
       </div>
     );
   }

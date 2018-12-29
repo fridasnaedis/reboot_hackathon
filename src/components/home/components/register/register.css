@@ -9,6 +9,10 @@
   margin-bottom: 120px;
 }
 
+.register a {
+  text-decoration: underline;
+}
+
 .register #registerForm {
   position: relative;
   top: -70px;
@@ -61,8 +65,19 @@
   /* border-radius: 8px;*/
 }
 
-.register .form__container .form .fieldset:nth-child(3) {
+/* .register .form__container .form .fieldset:nth-child(3) {
   margin-bottom: 0;
+} */
+
+.register .form__container .form #gender {
+  width: 100%;
+  height: 100%;
+  background-color: #625892;
+  color: #d9d5f1;
+  border: none;
+
+  font: inherit;
+  padding-left: 5px;
 }
 
 .register .form__container .form .fieldset-textbox {
@@ -175,6 +190,19 @@
   padding: 2%;
   color: #625892;
   text-align: left;
+}
+
+.register .custom-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.register .custom-data .item {
+  width: 100%;
+}
+
+.register .custom-data .item input {
+  margin-right: 15px !important;
 }
 
 .register .text--thanks {

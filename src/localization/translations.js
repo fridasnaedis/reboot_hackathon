@@ -4,8 +4,10 @@ module.exports = {
       loading: 'Hlutir eru í vinnslu!',
     },
     errors: {
-      name: 'Nafn verður að vera allaveganna 5 stafir',
-      email: 'Ekki gilt netfang',
+      name: 'Nafn verður að vera í það minnsta 1 stafur',
+      email: 'Netfang er ekki gilt',
+      age: 'Aldur verður að vera á milli 0 og 200',
+      graduation: 'Ár þarf að vera á forminu ÁÁÁÁ',
     },
     navbar: {
       left: 'reBoot',
@@ -54,14 +56,25 @@ module.exports = {
         },
       },
       register: {
-        name: 'Nafn',
+        firstname: 'Forafn',
+        lastname: 'Eftirnafn',
         email: 'Netfang',
+        school: 'Skóli',
+        phone: 'Símanúmer',
+        age: 'Aldur',
+        race: 'Þjóðerni',
+        major: 'Nám',
+        studyLevel: 'Námsstig',
+        graduation: 'Útskriftarár',
+        gender: 'Kyn',
+        genderFields: ['Karlkyns', 'Kvenkyns', 'Annað', 'Ég kýs að svara ekki'],
         interest: 'Áhugamál',
+        submission: 'Skilyrði',
         submit: 'Forskrá',
         topText: 'Forskráðu þig og fáðu fréttir af Reboot Hack',
         thanks: 'Takk fyrir að skrá þig',
-        fail: 'Eitthvað fór úrskeiðis, prófið aftur seinna',
-        interestFields: [
+        fail: 'Eitthvað fór úrskeiðis, reynið aftur seinna',
+        interestsFields: [
           {
             key: 1,
             value: 'Skýjalausnir',
@@ -125,6 +138,18 @@ module.exports = {
           {
             key: 14,
             value: 'Nýsköpun',
+          },
+        ],
+        submissionFields: [
+          {
+            key: 1,
+            value:
+              'Ég hef lesið og samþykki <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> siðareglur MLH </a>.',
+          },
+          {
+            key: 2,
+            value:
+              'Ég veiti ykkur leyfi til að deila skráningarupplýsingunum mínum fyrir stjórnun viðburðar, röðun, MLH, upplýsingatölvupósta fyrir og eftir viðburð og einstaka skilaboð um hackathon í samræmi við <a href="https://mlh.io/privacy" target="_blank"> friðhelgisstefnu MLH</a>.​ Ég samþykki <a href="https://github.com/MLH/mlh-policies/blob/master/prize-terms-and-conditions/contest-terms.md" target="_blank">skilmála og skilyrði MLH</a> og <a href="https://mlh.io/privacy" target="_blank"> friðhelgisstefnu þeirra </a>.',
           },
         ],
       },
@@ -225,17 +250,17 @@ module.exports = {
       question1: {
         text: 'Hvað er hackathon?',
         answer:
-          'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til þess að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp, og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
+          'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
       },
       question2: {
         text: 'Fyrir hverja er þetta?',
         answer:
-          'Reboot Hack er fyrir alla háskólanema, hvort sem að þú ert að læra á Íslandi eða í öðrum löndum. Háskólanemar eru þeir nemendur sem eru skráðir í háskóla og eða hafa nýlega lokið háskólanámi. Það er jafnframt ekki gerð krafa um að þátttakendur séu í tæknitengdu námi. Það sem skiptir meira máli er að þú hafir áhuga á sköpunarferlinu bakvið nýja tækni. Hvort sem það er að forrita, skipuleggja eða hanna.',
+          'Reboot Hack er fyrir alla háskólanema, hvort sem um er að ræða nema  á Íslandi eða í öðrum löndum. Háskólanemar eru þeir nemendur sem eru skráðir í háskóla og eða hafa nýlega lokið háskólanámi. Það er jafnframt ekki gerð krafa um að þátttakendur séu í tæknitengdu námi. Það sem skiptir meira máli er að þú hafir áhuga á sköpunarferlinu bakvið nýja tækni. Hvort sem það er að forrita, skipuleggja eða hanna.',
       },
       question3: {
         text: 'Hvar og hvenær fer Reboot Hack fram?',
         answer:
-          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík og fer fram laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaafhending fer síðan fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
+          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaafhending fer fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -250,37 +275,37 @@ module.exports = {
       question6: {
         text: 'Hvað ef ég er ekki með, eða vil ekki vera í teymi?',
         answer:
-          'Ekki örvænta! Þátttakendur fá tækifæri til þess að para sig saman í liði áður en að keppnin hefst og við munum passa uppá það að allir finni sér lið! Ef að þú kýst frekar að vinna ein/n þá er það velkomið. Lið geta verið samsett af allt að 5 þátttakendum.',
+          'Ekki örvænta! Þátttakendur fá tækifæri til þess að para sig saman í liði áður en að keppnin hefst og við munum passa uppá að allir finni sér lið! Ef að þú kýst frekar að vinna ein/n þá er það velkomið. Lið geta verið samsett af allt að 5 þátttakendum. ',
       },
       question7: {
         text: 'Kostar eitthvað að taka þátt?',
         answer:
-          'Ekkert. Þökk sé samstarfs- og styrktaraðilum okkar getum við haldið Reboot Hack án endurgjalds!',
+          'Ekkert. Þökk sé samstarfs- og styrktaraðilum okkar getum við haldið Reboot Hack án þátttökugjalds!',
       },
       question8: {
-        text: 'Hvað með mat og drykk?',
+        text: 'Hvað með mat og drykk, þarf ég að koma með nesti?',
         answer:
-          'Það verður boðið upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina til þess að halda öllum gangandi.',
+          'Það verður boðið upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina á milli máltíða.',
       },
       question9: {
         text: 'Má byrja að vinna með tækni og áskoranir fyrir hackathon-ið?',
         answer:
-          'Öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasöfnum (library), frameworks og sniðmátum (templates)  er leyfileg.',
+          'Öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasöfnum (library), frameworks og sniðmátum (templates) er leyfileg.',
       },
       question10: {
         text: 'Hverjar eru siðareglur Reboot Hack?',
         answer:
-          'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og  og skipuleggjendur munu sjá til þess að þeim verði framfylgt.',
+          'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og skipuleggjendur munu sjá til þess að þeim verði framfylgt',
       },
       question11: {
         text: 'Þarf ég að vera þarna allan tímann?',
         answer:
-          'Nei þér er velkomið að koma og fara eins og þú vilt þó svo að við hvetjum þig til þess að fullnýta tímann sem þið hafið til þess að móta, þróa og útfæra hugmyndina ykkar. Hægt verður að dvelja á staðnum yfir nóttu og boðið verður upp á létt snarl og drykki til þess að halda orkunni uppi.',
+          'Nei þér er velkomið að koma og fara eins og þú vilt þó að við hvetjum þig til að fullnýta tímann sem þið hafið til þess að móta, þróa og útfæra hugmyndina ykkar. Hægt verður að dvelja á staðnum yfir nóttu og boðið verður upp á létt snarl og drykki til að halda orkunni uppi.',
       },
       question12: {
         text: 'Hvað á ég að taka með mér?',
         answer:
-          'Persónuskilríki, fartölvu, hleðslutæki, svefnpoka (ef þú ætlar þér að leggja þig á staðnum) ásamt hreinlætisvörur til að fríska upp á sig í gegnum helgina!',
+          'Persónuskilríki, fartölvu, hleðslutæki, svefnpoka (ef þú ætlar að leggja þig á staðnum) ásamt hreinlætisvörum til að fríska upp á sig í gegnum helgina!',
       },
       question13: {
         text: 'Hvernig er aðgengi á staðnum?',
@@ -294,8 +319,10 @@ module.exports = {
       loading: 'Working!',
     },
     errors: {
-      name: 'Name must be at least 5 characters',
+      name: 'Name must be at least 1 character',
       email: 'Not a valid email address',
+      age: 'Not a valid age',
+      graduation: 'Year needs to be in the format YYYY',
     },
     navbar: {
       left: 'reBoot',
@@ -341,14 +368,25 @@ module.exports = {
         },
       },
       register: {
-        name: 'Name',
+        firstname: 'First Name',
+        lastname: 'Last Name',
         email: 'Email',
+        school: 'School',
+        phone: 'Phone Number',
+        age: 'Age',
+        race: 'Ethnicity',
+        major: 'Major',
+        studyLevel: 'Level of Study',
+        graduation: 'Graduation Year',
+        gender: 'Gender',
+        genderFields: ['Male', 'Female', 'Other', 'Prefer not to answer'],
         interest: 'Interests',
+        submission: 'Terms',
         submit: 'Preregister',
         topText: 'Preregister and get news about Reboot Hack',
         thanks: 'Thanks for signing up',
         fail: 'Something went wrong, please try again later',
-        interestFields: [
+        interestsFields: [
           {
             key: 1,
             value: 'Cloud based solutions',
@@ -412,6 +450,18 @@ module.exports = {
           {
             key: 14,
             value: 'Start-ups',
+          },
+        ],
+        submissionFields: [
+          {
+            key: 1,
+            value:
+              'I have read and agree to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> MLH Code of Conduct </a>​.​',
+          },
+          {
+            key: 2,
+            value:
+              'I authorize you to share my application/registration information for event administration, ranking, MLH administration, pre- and post-event informational e-mails, and occasional messages about hackathons in-line with the​ <a href="https://mlh.io/privacy" target="_blank"> MLH Privacy Policy </a>.​ I further agree to the terms of both the <a href="https://github.com/MLH/mlh-policies/blob/master/prize-terms-and-conditions/contest-terms.md" target="_blank"> M​LH Contest Terms and Conditions​ </a> and the ​<a href="https://mlh.io/privacy" target="_blank"> MLH Privacy Policy </a>.​',
           },
         ],
       },
@@ -522,12 +572,12 @@ module.exports = {
       question3: {
         text: 'When and where is the hackathon?',
         answer:
-          'The hackathon is held in the University of Iceland Saturday 16th of February to Sunday 17th of February 2019.',
+          'The hackathon is held in the University of Iceland Saturday on the 2nd of February to Sunday 3rd of February 2019. The official award ceremony will be at UTmessan the following Saturday, the 9th of February.',
       },
       question4: {
         text: 'Do I have to know how to code?',
         answer:
-          'No requirement is made, we only suggest that when forming teams before or on-site (there will be a team formation on Saturday morning) that at least one person has some basic coding knowledge. We encourage students studying non-tech related fields to join since there is a lot of work to be done just coming up with ideas, thinking about the applications of the project and creating designing that makes your presentation stand out! A good team is balanced and diverse. ',
+          'No requirement is made. We only suggest that when forming teams before or on-site (there will be a team formation on Saturday morning) that at least one person has some basic coding knowledge. We encourage students studying non-tech related fields to join since there is a lot of work to be done just coming up with ideas, thinking about the applications of the project and creating a design that makes your presentation stand out! A good team is balanced and diverse.',
       },
       question5: {
         text: 'Who can attend?',
@@ -537,7 +587,7 @@ module.exports = {
       question6: {
         text: 'What if I’m not a part of a team or want to work by myself?',
         answer:
-          'Don’t worry! If you come by yourself there will be team building on site before the competition starts and we will make sure everybody is teamed up. If you prefer to be on your own that’s of course welcome too.',
+          'Don’t worry! If you come by yourself there will be team building on site before the competition starts and we will make sure everybody is teamed up. If you prefer to be on your own then that’s of course welcome too.',
       },
       question7: {
         text: 'Does it cost anything?',
@@ -552,7 +602,7 @@ module.exports = {
       question9: {
         text: 'What’s the code of conduct',
         answer:
-          'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">code of conduct</a>. Organizers will make sure that everyone follows them.',
+          'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code.',
       },
       question10: {
         text: 'What about sleeping?',
@@ -567,7 +617,12 @@ module.exports = {
       question12: {
         text: 'What should I bring?',
         answer:
-          'A valid ID for admission, your laptop and charger, sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend!',
+          'A valid ID for admission, your laptop and charger, sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend! ',
+      },
+      question13: {
+        text: 'How is accessibility at the venue?',
+        answer:
+          'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
       },
     },
   },

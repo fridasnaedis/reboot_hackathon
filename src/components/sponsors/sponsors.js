@@ -35,6 +35,7 @@ class Sponsors extends Component {
               </tr>
             </thead>
             <tbody>
+              <SponsorRow text={table.r10} values={['', '', 'X']} />
               <SponsorRow text={table.r1} values={['X', 'X', '']} />
               <SponsorRow text={table.r2} values={['X', 'X', 'X']} />
               <SponsorRow text={table.r3} values={['X', 'X', 'X']} />
@@ -47,7 +48,6 @@ class Sponsors extends Component {
               />
               <SponsorRow text={table.r8} values={['', '', 'X']} />
               <SponsorRow text={table.r9} values={['', '', 'X']} />
-              <SponsorRow text={table.r10} values={['', '', 'X']} />
             </tbody>
           </table>
           <p className="additional__info">{sponsors.additionalinfo.first}</p>

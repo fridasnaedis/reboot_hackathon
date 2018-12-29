@@ -26,6 +26,15 @@ class Footer extends Component {
           </div>
           <div className="footer--sponsors-img">
             <a
+              href="https://www.utmessan.is/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img src={`${baseurl}/images/UT-logo.png`} alt="UT messan logo" />
+            </a>
+          </div>
+          <div className="footer--sponsors-img">
+            <a
               href="https://www.hi.is/"
               rel="noopener noreferrer"
               target="_blank"
@@ -38,11 +47,14 @@ class Footer extends Component {
           </div>
           <div className="footer--sponsors-img">
             <a
-              href="https://www.utmessan.is/"
+              href="https://mlh.io/seasons/eu-2019/events"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={`${baseurl}/images/UT-logo.png`} alt="UT messan logo" />
+              <img
+                src={`${baseurl}/images/mlh-logo-white.png`}
+                alt="MLH logo"
+              />
             </a>
           </div>
         </div>
