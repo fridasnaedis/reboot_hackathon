@@ -5,10 +5,12 @@ class CustomCheckbox extends Component {
   render() {
     const { text, useLinks } = this.props;
 
+    const newId = Math.random();
+
     const textValue = useLinks ? (
       <p className="" dangerouslySetInnerHTML={{ __html: text }} />
     ) : (
-      <label htmlFor={text}>{text}</label>
+      <label htmlFor={newId}>{text}</label>
     );
 
     return (
@@ -16,11 +18,11 @@ class CustomCheckbox extends Component {
         <input
           onChange={this.props.onChange}
           type="checkbox"
-          id={text}
-          name={text}
+          id={newId}
+          name={newId}
           value={text}
         />
-        <label htmlFor={text}>{textValue}</label>
+        <label htmlFor={newId}>{textValue}</label>
       </div>
     );
   }

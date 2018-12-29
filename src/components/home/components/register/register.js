@@ -68,9 +68,13 @@ class Register extends Component {
     return !value || value.toString().length !== 4 ? 'graduation' : null;
   };
 
-  onSubmitFailure(errors) {
+  scrollToError() {
     const myDomNode = ReactDOM.findDOMNode(this.registerFormRef.current);
     myDomNode.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+
+  onSubmitFailure(errors) {
+    this.scrollToError();
 
     this.setState({
       errors,
@@ -78,21 +82,34 @@ class Register extends Component {
   }
 
   onSubmit(data) {
-    this.setState({
-      formSubmitted: true,
-    });
-
     const {
       interestsFields,
       submissionFields,
     } = this.props.translations.home.register;
 
-    const interests = interestsFields
-      .filter(x => this.state.interestsCheckboxes[x.key])
-      .map(x => x.key);
-
+    // Validate data buttons
     const submission = submissionFields
       .filter(x => this.state.submissionCheckboxes[x.key])
+      .map(x => x.key);
+
+    if (submission.length !== 2) {
+      this.setState({
+        errors: {
+          terms: 'terms',
+        },
+      });
+
+      this.scrollToError();
+
+      return;
+    }
+
+    this.setState({
+      formSubmitted: true,
+    });
+
+    const interests = interestsFields
+      .filter(x => this.state.interestsCheckboxes[x.key])
       .map(x => x.key);
 
     data = { ...data, interests, submission };
@@ -121,6 +138,27 @@ class Register extends Component {
 
   setFormApi(formApi) {
     this.formApi = formApi;
+
+    const isDev = process.env.NODE_ENV === 'development';
+
+    console.log('');
+    console.log(this.formApi);
+
+    if (isDev) {
+      setTimeout(() => {
+        this.formApi.setValue('firstname', 'Ketill');
+        this.formApi.setValue('lastname', 'G');
+        this.formApi.setValue('email', 'ketill@bu.edu');
+        this.formApi.setValue('school', 'Boston University');
+        this.formApi.setValue('phone', '8661581');
+        this.formApi.setValue('age', '23');
+        this.formApi.setValue('race', 'white');
+        this.formApi.setValue('major', 'CS');
+        this.formApi.setValue('studyLevel', 'Masters');
+        this.formApi.setValue('graduation', '2019');
+        this.formApi.setValue('diet', 'Coffee');
+      }, 1);
+    }
   }
 
   formButtonContent() {
@@ -270,11 +308,23 @@ class Register extends Component {
             </div>
 
             <div className="fieldset">
+              <label htmlFor="diet">{register.diet}</label>
+              <Text field="diet" id="diet" />
+            </div>
+
+            <div className="fieldset">
               <Select field="gender" id="gender">
                 <Option value="0">{register.genderFields[0]}</Option>
                 <Option value="1">{register.genderFields[1]}</Option>
                 <Option value="2">{register.genderFields[2]}</Option>
                 <Option value="3">{register.genderFields[3]}</Option>
+              </Select>
+            </div>
+
+            <div className="fieldset">
+              <Select field="eduroam" id="eduroam">
+                <Option value="0">{register.eduroam[0]}</Option>
+                <Option value="1">{register.eduroam[1]}</Option>
               </Select>
             </div>
 
