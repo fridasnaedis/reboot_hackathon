@@ -384,6 +384,10 @@ module.exports = {
         graduation: 'Graduation Year',
         gender: 'Gender',
         genderFields: ['Male', 'Female', 'Other', 'Prefer not to answer'],
+        eduroam: [
+          'I have an eduroam account',
+          'I do not have an eduroam account',
+        ],
         diet: 'Diet',
         interest: 'Interests',
         submission: 'Terms',

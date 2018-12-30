@@ -141,9 +141,6 @@ class Register extends Component {
 
     const isDev = process.env.NODE_ENV === 'development';
 
-    console.log('');
-    console.log(this.formApi);
-
     if (isDev) {
       setTimeout(() => {
         this.formApi.setValue('firstname', 'Ketill');
