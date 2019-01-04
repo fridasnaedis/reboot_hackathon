@@ -8,6 +8,7 @@ const baseurl = process.env.REACT_APP_SUB_URL;
 
 class Navbar extends Component {
   render() {
+    const { REACT_APP_MLH_CLIENT_ID, REACT_APP_MLH_REDIRECT_URL } = process.env;
     const { translations } = this.props;
     return (
       <div className="navbar">
@@ -33,12 +34,12 @@ class Navbar extends Component {
               {translations.sponsors.content}
             </Link>
             <LanguageButton />
-            <Link
+            <a
               className="button button__register"
-              to={`${baseurl}/#registerForm`}
+              href={`https://my.mlh.io/oauth/authorize?client_id=${REACT_APP_MLH_CLIENT_ID}&redirect_uri=${REACT_APP_MLH_REDIRECT_URL}&response_type=token`}
             >
               {translations.home.register.submit}
-            </Link>
+            </a>
           </div>
         </div>
       </div>

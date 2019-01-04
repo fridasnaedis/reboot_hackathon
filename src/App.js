@@ -8,6 +8,7 @@ import LoadingShowcase from './components/loadingShowcase';
 import Footer from './components/footer';
 import Sponsors from './components/sponsors';
 import Faq from './components/faq';
+import SignedUp from './components/signedUp';
 
 const baseurl = process.env.REACT_APP_SUB_URL;
 
@@ -27,6 +28,11 @@ class App extends Component {
               exact
               path={`${baseurl}/loading-test`}
               component={LoadingShowcase}
+            />
+            <Route
+              exact
+              path={`${baseurl}/oauth/callback`}
+              component={SignedUp}
             />
             <Route exact path={`${baseurl}/`} component={Home} />
           </Switch>
