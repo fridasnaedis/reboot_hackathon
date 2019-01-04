@@ -57,104 +57,8 @@ module.exports = {
         },
       },
       register: {
-        firstname: 'Forafn',
-        lastname: 'Eftirnafn',
-        email: 'Netfang',
-        school: 'Skóli',
-        phone: 'Símanúmer',
-        age: 'Aldur',
-        race: 'Þjóðerni',
-        major: 'Nám',
-        studyLevel: 'Námsstig',
-        graduation: 'Útskriftarár',
-        diet: 'Matarræði',
-        gender: 'Kyn',
-        genderFields: ['Karlkyns', 'Kvenkyns', 'Annað', 'Ég kýs að svara ekki'],
-        eduroam: ['Ég hef eduroam aðgang', 'Eg hef ekki eduroam aðgang'],
-        interest: 'Áhugamál',
-        submission: 'Skilyrði',
-        submit: 'Forskrá',
-        topText: 'Forskráðu þig og fáðu fréttir af Reboot Hack',
-        thanks: 'Takk fyrir að skrá þig',
-        fail: 'Eitthvað fór úrskeiðis, reynið aftur seinna',
-        interestsFields: [
-          {
-            key: 1,
-            value: 'Skýjalausnir',
-          },
-          {
-            key: 2,
-            value: 'Grafísk Hönnun',
-          },
-          {
-            key: 3,
-            value: 'Vefforritun',
-          },
-          {
-            key: 4,
-            value: 'Bakendaforritun',
-          },
-          {
-            key: 15,
-            value: 'Netvinna (Computer Networking)',
-          },
-          {
-            key: 5,
-            value: 'Smáforrit (Application development)',
-          },
-          {
-            key: 6,
-            value: 'Gagnagrunnar',
-          },
-          {
-            key: 7,
-            value: 'Bitakeðja (Blockchain)',
-          },
-          {
-            key: 8,
-            value: 'Gervigreind',
-          },
-          {
-            key: 16,
-            value: 'Tölvuöryggi',
-          },
-          {
-            key: 12,
-            value: 'Vélbúnaður',
-          },
-          {
-            key: 9,
-            value: 'Framkoma',
-          },
-          {
-            key: 10,
-            value: 'Vörumerkjaþróun',
-          },
-          {
-            key: 11,
-            value: 'Markaðsfræði',
-          },
-          {
-            key: 13,
-            value: 'Verkefnastjórnun',
-          },
-          {
-            key: 14,
-            value: 'Nýsköpun',
-          },
-        ],
-        submissionFields: [
-          {
-            key: 1,
-            value:
-              'Ég hef lesið og samþykki <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> siðareglur MLH </a>.',
-          },
-          {
-            key: 2,
-            value:
-              'Ég veiti ykkur leyfi til að deila skráningarupplýsingunum mínum fyrir stjórnun viðburðar, röðun, MLH, upplýsingatölvupósta fyrir og eftir viðburð og einstaka skilaboð um hackathon í samræmi við <a href="https://mlh.io/privacy" target="_blank"> friðhelgisstefnu MLH</a>.​ Ég samþykki <a href="https://github.com/MLH/mlh-policies/blob/master/prize-terms-and-conditions/contest-terms.md" target="_blank">skilmála og skilyrði MLH</a> og <a href="https://mlh.io/privacy" target="_blank"> friðhelgisstefnu þeirra </a>.',
-          },
-        ],
+        register: 'Skrá',
+        text: 'Skráðu þig að neðan',
       },
     },
     card: 'mynd hér',
@@ -316,6 +220,7 @@ module.exports = {
           'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
       },
     },
+    signedUp: 'Takk fyrir að skrá þig',
   },
   en: {
     defaultText: {
@@ -372,107 +277,8 @@ module.exports = {
         },
       },
       register: {
-        firstname: 'First Name',
-        lastname: 'Last Name',
-        email: 'Email',
-        school: 'School',
-        phone: 'Phone Number',
-        age: 'Age',
-        race: 'Ethnicity',
-        major: 'Major',
-        studyLevel: 'Level of Study',
-        graduation: 'Graduation Year',
-        gender: 'Gender',
-        genderFields: ['Male', 'Female', 'Other', 'Prefer not to answer'],
-        eduroam: [
-          'I have an eduroam account',
-          'I do not have an eduroam account',
-        ],
-        diet: 'Diet',
-        interest: 'Interests',
-        submission: 'Terms',
-        submit: 'Preregister',
-        topText: 'Preregister and get news about Reboot Hack',
-        thanks: 'Thanks for signing up',
-        fail: 'Something went wrong, please try again later',
-        interestsFields: [
-          {
-            key: 1,
-            value: 'Cloud based solutions',
-          },
-          {
-            key: 2,
-            value: 'Graphic design',
-          },
-          {
-            key: 3,
-            value: 'Web development',
-          },
-          {
-            key: 4,
-            value: 'Back end development',
-          },
-          {
-            key: 15,
-            value: 'Computer Networking',
-          },
-          {
-            key: 5,
-            value: 'Application development',
-          },
-          {
-            key: 6,
-            value: 'Databases',
-          },
-          {
-            key: 7,
-            value: 'Blockchain',
-          },
-          {
-            key: 8,
-            value: 'Artificial Intelligence',
-          },
-          {
-            key: 16,
-            value: 'Cybersecurity',
-          },
-          {
-            key: 12,
-            value: 'Hardware',
-          },
-          {
-            key: 9,
-            value: 'Presentation',
-          },
-          {
-            key: 10,
-            value: 'Product development',
-          },
-          {
-            key: 11,
-            value: 'Marketing',
-          },
-          {
-            key: 13,
-            value: 'Project management',
-          },
-          {
-            key: 14,
-            value: 'Start-ups',
-          },
-        ],
-        submissionFields: [
-          {
-            key: 1,
-            value:
-              'I have read and agree to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> MLH Code of Conduct </a>​.​',
-          },
-          {
-            key: 2,
-            value:
-              'I authorize you to share my application/registration information for event administration, ranking, MLH administration, pre- and post-event informational e-mails, and occasional messages about hackathons in-line with the​ <a href="https://mlh.io/privacy" target="_blank"> MLH Privacy Policy </a>.​ I further agree to the terms of both the <a href="https://github.com/MLH/mlh-policies/blob/master/prize-terms-and-conditions/contest-terms.md" target="_blank"> M​LH Contest Terms and Conditions​ </a> and the ​<a href="https://mlh.io/privacy" target="_blank"> MLH Privacy Policy </a>.​',
-          },
-        ],
+        register: 'Register',
+        text: 'Sign up below',
       },
     },
     card: 'image here',
@@ -634,5 +440,6 @@ module.exports = {
           'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
       },
     },
+    signedUp: 'Thanks for signing up',
   },
 };

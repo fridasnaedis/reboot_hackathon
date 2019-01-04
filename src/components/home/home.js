@@ -3,7 +3,7 @@ import Intro from './components/intro';
 import Info from './components/info';
 import Detail from './components/detail';
 import Register from './components/register';
-import FillerImage from './components/fillerImage';
+import FillerImage from '../fillerImage';
 import Translate from '../translate';
 
 import './home.css';

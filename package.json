@@ -5,9 +5,7 @@
   "homepage": "https://reboot.hi.is",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "email-validator": "^2.0.4",
     "glamor": "^2.20.40",
-    "informed": "^1.2.0",
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
