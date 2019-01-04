@@ -38,7 +38,7 @@ class Navbar extends Component {
               className="button button__register"
               href={`https://my.mlh.io/oauth/authorize?client_id=${REACT_APP_MLH_CLIENT_ID}&redirect_uri=${REACT_APP_MLH_REDIRECT_URL}&response_type=token`}
             >
-              {translations.home.register.submit}
+              {translations.home.register.register}
             </a>
           </div>
         </div>

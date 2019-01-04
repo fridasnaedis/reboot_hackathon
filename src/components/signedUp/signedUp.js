@@ -8,26 +8,15 @@ import { connect } from 'react-redux';
 const baseurl = process.env.REACT_APP_SUB_URL;
 
 class SignedUp extends Component {
-  readHash() {
-    const { hash } = this.props.location;
-    const result = hash
-      .substring(1)
-      .split('&')
-      .reduce((result, item) => {
-        const parts = item.split('=');
-        result[parts[0]] = parts[1];
-        return result;
-      }, {});
-  }
-
   render() {
-    this.readHash();
     this.props.dispatch(introLoaded());
 
     return (
       <div className="signedUp">
+        <div className="container">
+          <h1>{this.props.translations.signedUp}</h1>
+        </div>
         <FillerImage imageUrl={`${baseurl}/images/hi-kold.jpg`} />
-        <p>Takk fyrir að skrá þig</p>
       </div>
     );
   }
