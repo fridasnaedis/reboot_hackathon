@@ -175,7 +175,7 @@ module.exports = {
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
         answer:
-          'Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi. Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun,  en vettvangur verður fyrir það á laugardagsmorgni, 2. febrúar. Gert er ráð fyrir að það sé að minnsta kosti einn aðili í liðinu sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd lausnarinnar. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum.',
+          'Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun (sem verður vettvangur fyrir á laugardagsmorgni) sé að minnsta kosti einn aðili sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd verkefnisins. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum. Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi.',
       },
       question5: {
         text: 'Af hverju varð Reboot Hack til?',
