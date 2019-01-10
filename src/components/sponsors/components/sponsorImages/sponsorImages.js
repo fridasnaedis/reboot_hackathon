@@ -10,7 +10,7 @@ const reboot = [
   'Test.png',
   'Test.png',
   'Test.png',
-  'Test.png',
+  'reboothack_small.png',
 ];
 const restart = [
   'Test.png',
