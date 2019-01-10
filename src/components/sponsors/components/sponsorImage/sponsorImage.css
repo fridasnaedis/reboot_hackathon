@@ -1,0 +1,13 @@
+.sponsor__content .sponsor_current .empty {
+  display: none;
+}
+
+.sponsor__content .sponsor_current .tall {
+  height: 100%;
+  object-fit: contain;
+}
+
+.sponsor__content .sponsor_current .wide {
+  width: 100%;
+  object-fit: contain;
+}
