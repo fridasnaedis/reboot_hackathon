@@ -10,6 +10,7 @@ const reboot = [
   'sky.png',
   'Snjallborgin-RVK-Logo.png',
   'utmessan.png',
+  'mlh-logo-color.png',
 ];
 const reload = ['creditinfo.png', 'dominos.png', 'github.png', 'miracle.png'];
 const restart = ['islandsbanki.png', 'menandmice.jpg', 'microsoft.png'];
@@ -72,7 +73,7 @@ class sponsorImages extends Component {
       <div className="sponsor_current">
         <h2 className="sponsor__current--header">
           Re:bo
-          <span>o</span>t
+          <span>o</span>t <span> - {sponsors.rebootText} </span>
         </h2>
         <div className="sponsor__reboot" ref={this.imageContainer}>
           {reboot.map(image => {
@@ -89,7 +90,9 @@ class sponsorImages extends Component {
             <div key={i} />
           ))}
         </div>
-        <h2 className="sponsor__current--header">Re:start</h2>
+        <h2 className="sponsor__current--header">
+          Re:start <span> - {sponsors.restartText} </span>
+        </h2>
         <div className="sponsor__restart">
           {restart.map(image => {
             return (
@@ -105,7 +108,9 @@ class sponsorImages extends Component {
             <div key={i} />
           ))}
         </div>
-        <h2 className="sponsor__current--header">Re:load</h2>
+        <h2 className="sponsor__current--header">
+          Re:load <span> - {sponsors.reloadText} </span>{' '}
+        </h2>
         <div className="sponsor__reload">
           {reload.map(image => {
             return (

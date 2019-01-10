@@ -11,7 +11,13 @@
   font-size: 2em;
   padding: 20px 0;
   margin: 0;
+  margin-top: 70px;
 }
+
+.sponsor__content .sponsor__header--main {
+  font-size: 2.5em;
+}
+
 .sponsor__content .sponsor__main__header {
   font-size: 2.5em;
   margin: 0 auto;

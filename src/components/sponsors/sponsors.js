@@ -14,7 +14,9 @@ class Sponsors extends Component {
         {/* <HeaderImage text={sponsors.header} image="ht_orange_blur2.jpg" /> */}
 
         <div className="sponsor__content">
-          <h1 className="sponsor__header">{sponsors.sponsors}</h1>
+          <h1 className="sponsor__header sponsor__header--main">
+            {sponsors.sponsors}
+          </h1>
           <SponsorImages />
           <h2 className="sponsor__header">{sponsors.tableHeader}</h2>
           <table className="sponsor__table">
