@@ -104,9 +104,9 @@ module.exports = {
             'Fyrirtæki í verðflokknum Re:start fá 15-20 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Fyrirtæki í verðflokknum Re:boot fá 30-45 mínútna slot. Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Á sama tíma gefst tækifæri til þess að kynna framúrskarandi tækni og vörur fyrirtækisins  fyrir mögulegum framtíðarstarfsfólki og eða viðskiptavinum.',
         },
         r8: {
-          title: 'Ávarp á setningarathöfn og verðlaunaafhendingu',
+          title: 'Ávarp á setningarathöfn og verðlaunaafhöfn',
           info:
-            'Re:boot samstarfsaðilar fá tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á formlegri verðlaunaafhendingu Reboot Hack sem fer fram á UTmessunni í Hörpu þann 9. febrúar. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum.',
+            'Re:boot samstarfsaðilar fá tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á formlegri verðlaunahöfn Reboot Hack sem fer fram á UTmessunni í Hörpu þann 9. febrúar. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum.',
         },
         r9: {
           title: 'Sæti í dómnefnd',
@@ -130,13 +130,13 @@ module.exports = {
           header:
             'Re:start <span>- taktu samstarfið skrefinu lengra! (5-8 pláss)</span>',
           main:
-            'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack.  Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna veitir fyrirtækið viðkomandi lið sérstaka viðurkenningu í formi verðlauna. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og formlegri verðlaunaafhendingu viðburðins sem fer fram á UTmessunni í Hörpu þann 9. febrúar.',
+            'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack.  Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna veitir fyrirtækið viðkomandi lið sérstaka viðurkenningu í formi verðlauna. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og formlegri verðlaunaathöfn viðburðins sem fer fram á UTmessunni í Hörpu þann 9. febrúar.',
         },
         reboot: {
           header:
             'Re:bo<span>o</span>t <span >- taktu þetta alla leið! (max 2 pláss)</span>',
           main:
-            'Ásamt því að fá alla ávinninga Re:load og Re:start fá Re:boot samstarfsaðilar tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á verðlaunaafhendingunni. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum. Annar ávinningur Re:boot samstarfsaðila er 30-45 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Þar gefst fyrirtækinu einnig tækifæri til þess að kynna sína helstu tækni og vörur fyrir mögulegu framtíðarstarfsfólki og eða viðskiptavinum. Helstu kostir þess að taka þetta alla leið með Reboot er að fyrirtækið fær sæti í dómnefnd og þar með hefur áhrif á áherslur og útkomu hackathon-sins. Fyrirtækið kemur jafnframt fram á öllu kynningar- og markaðsefni. Reboot Hack vill hvetja nemendur til starfsframa innan upplýsingatækni en hackathon eru stór hlekkur nýsköpunar innan upplýsingatæknigeirans og hvetjum við ykkur að leiða þá framþróun með okkur.',
+            'Ásamt því að fá alla ávinninga Re:load og Re:start fá Re:boot samstarfsaðilar tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á verðlaunaathöfninni. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum. Annar ávinningur Re:boot samstarfsaðila er 30-45 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Þar gefst fyrirtækinu einnig tækifæri til þess að kynna sína helstu tækni og vörur fyrir mögulegu framtíðarstarfsfólki og eða viðskiptavinum. Helstu kostir þess að taka þetta alla leið með Reboot er að fyrirtækið fær sæti í dómnefnd og þar með hefur áhrif á áherslur og útkomu hackathon-sins. Fyrirtækið kemur jafnframt fram á öllu kynningar- og markaðsefni. Reboot Hack vill hvetja nemendur til starfsframa innan upplýsingatækni en hackathon eru stór hlekkur nýsköpunar innan upplýsingatæknigeirans og hvetjum við ykkur að leiða þá framþróun með okkur.',
         },
       },
       team: {
@@ -167,7 +167,7 @@ module.exports = {
       question3: {
         text: 'Hvar og hvenær fer Reboot Hack fram?',
         answer:
-          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaafhending fer fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
+          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaathöfn fer fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -217,7 +217,7 @@ module.exports = {
       question13: {
         text: 'Hvernig er aðgengi á staðnum?',
         answer:
-          'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
+          'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaathöfn Reboot Hack fer fram.',
       },
     },
     signedUp: 'Takk fyrir að skrá þig',
@@ -435,9 +435,9 @@ module.exports = {
           'A valid ID for admission, your laptop and charger, sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend! ',
       },
       question13: {
-        text: 'How is accessibility at the venue?',
+        text: 'How is the accessibility?',
         answer:
-          'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaafhending Reboot Hack fer fram.',
+          'Our venue is accessible to everyone.',
       },
     },
     signedUp: 'Thanks for signing up',

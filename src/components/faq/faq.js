@@ -21,6 +21,7 @@ class Faq extends Component {
         <Question text={faq.question10.text} answer={faq.question10.answer} />
         <Question text={faq.question11.text} answer={faq.question11.answer} />
         <Question text={faq.question12.text} answer={faq.question12.answer} />
+        <Question text={faq.question13.text} answer={faq.question13.answer} />
       </div>
     );
   }
