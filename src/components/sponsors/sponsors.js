@@ -3,7 +3,7 @@ import SponsorRow from './components/sponsorRow';
 import SponsorDetail from './components/sponsor-detail';
 import './sponsors.css';
 import Translate from '../translate';
-// import HeaderImage from '../headerImage';
+import SponsorImages from './components/sponsorImages';
 
 class Sponsors extends Component {
   render() {
@@ -14,7 +14,8 @@ class Sponsors extends Component {
         {/* <HeaderImage text={sponsors.header} image="ht_orange_blur2.jpg" /> */}
 
         <div className="sponsor__content">
-          {/* <h1 className="sponsor__main__header">{sponsors.header}</h1> */}
+          <h1 className="sponsor__header">{sponsors.sponsors}</h1>
+          <SponsorImages />
           <h2 className="sponsor__header">{sponsors.tableHeader}</h2>
           <table className="sponsor__table">
             <thead className="sponsor__table-header">

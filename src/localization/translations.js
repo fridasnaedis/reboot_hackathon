@@ -160,6 +160,7 @@ module.exports = {
     card: 'mynd hér',
     sponsors: {
       content: 'Styrkja',
+      sponsors: 'Okkar styrktaraðilar',
       header: 'Hvernig getur þú hjálpað Reboot Hack að verða að veruleika?',
       tableHeader: 'Verðflokkar fyrir styrktar- og samstarfsaðila',
       table: {
@@ -478,6 +479,7 @@ module.exports = {
     card: 'image here',
     sponsors: {
       content: 'Sponsor',
+      sponsors: 'Our sponsors',
       header: 'How can you help Reboot Hack become a reality?',
       tableHeader: 'Sponsorship brackets',
       table: {
