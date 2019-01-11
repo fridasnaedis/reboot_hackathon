@@ -11,3 +11,7 @@
   width: 100%;
   object-fit: contain;
 }
+
+.sponsor__content .sponsor_current a {
+  display: flex;
+}

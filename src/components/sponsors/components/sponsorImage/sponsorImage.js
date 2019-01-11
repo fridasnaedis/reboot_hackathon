@@ -26,10 +26,13 @@ class sponsorImage extends Component {
   }
 
   render() {
-    const { src, alt } = this.props;
-    console.log(this.state);
+    const { src, alt, url } = this.props;
 
-    return <img src={src} alt={alt} className={this.state.src} />;
+    return (
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <img src={src} alt={alt} className={this.state.src} />
+      </a>
+    );
   }
 }
 

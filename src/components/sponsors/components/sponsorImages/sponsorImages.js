@@ -6,13 +6,25 @@ import './sponsorImages.css';
 const baseurl = process.env.REACT_APP_SUB_URL;
 
 const reboot = [
-  'hi-logo_vertical_transparent2-black-is.png',
-  'sky.png',
-  'Snjallborgin-RVK-Logo.png',
-  'utmessan.png',
+  {
+    image: 'hi-logo_vertical_transparent2-black-is.png',
+    url: 'https://www.hi.is/',
+  },
+  { image: 'sky.png', url: 'https://www.sky.is/' },
+  { image: 'Snjallborgin-RVK-Logo.png', url: 'http://www.snjallborgin.is/' },
+  { image: 'utmessan.png', url: 'https://utmessan.is/' },
 ];
-const reload = ['creditinfo.png', 'dominos.png', 'github.png', 'miracle.png'];
-const restart = ['islandsbanki.png', 'menandmice.jpg', 'microsoft.png'];
+const reload = [
+  { image: 'creditinfo.png', url: 'https://www.creditinfo.is/' },
+  { image: 'dominos.png', url: 'https://www.dominos.is/' },
+  { image: 'github.png', url: 'https://github.com/' },
+  { image: 'miracle.png', url: 'http://www.miracle.is/' },
+];
+const restart = [
+  { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
+  { image: 'menandmice.jpg', url: 'https://www.menandmice.com/' },
+  { image: 'microsoft.png', url: 'https://www.microsoft.com/is-is' },
+];
 
 class sponsorImages extends Component {
   constructor(props) {
@@ -67,7 +79,6 @@ class sponsorImages extends Component {
   }
 
   render() {
-    const { sponsors } = this.props.translations;
     return (
       <div className="sponsor_current">
         <h2 className="sponsor__current--header">
@@ -75,12 +86,13 @@ class sponsorImages extends Component {
           <span>o</span>t
         </h2>
         <div className="sponsor__reboot" ref={this.imageContainer}>
-          {reboot.map(image => {
+          {reboot.map(item => {
             return (
-              <div ref={this.rebootImage} key={`${image}`}>
+              <div ref={this.rebootImage} key={`${item.image}`}>
                 <SponsorImage
-                  src={`${baseurl}/images/reboot/${image}`}
+                  src={`${baseurl}/images/reboot/${item.image}`}
                   alt="Reboot"
+                  url={item.url}
                 />
               </div>
             );
@@ -91,12 +103,13 @@ class sponsorImages extends Component {
         </div>
         <h2 className="sponsor__current--header">Re:start</h2>
         <div className="sponsor__restart">
-          {restart.map(image => {
+          {restart.map(item => {
             return (
-              <div ref={this.restartImage} key={`${image}`}>
+              <div ref={this.restartImage} key={`${item.image}`}>
                 <SponsorImage
-                  src={`${baseurl}/images/restart/${image}`}
+                  src={`${baseurl}/images/restart/${item.image}`}
                   alt="Restart"
+                  url={item.url}
                 />
               </div>
             );
@@ -107,12 +120,13 @@ class sponsorImages extends Component {
         </div>
         <h2 className="sponsor__current--header">Re:load</h2>
         <div className="sponsor__reload">
-          {reload.map(image => {
+          {reload.map(item => {
             return (
-              <div ref={this.reloadImage} key={`${image}`}>
+              <div ref={this.reloadImage} key={`${item.image}`}>
                 <SponsorImage
-                  src={`${baseurl}/images/reload/${image}`}
+                  src={`${baseurl}/images/reload/${item.image}`}
                   alt="Reload"
+                  url={item.url}
                 />
               </div>
             );
