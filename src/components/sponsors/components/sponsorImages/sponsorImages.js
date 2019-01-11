@@ -13,12 +13,13 @@ const reboot = [
   { image: 'sky.png', url: 'https://www.sky.is/' },
   { image: 'Snjallborgin-RVK-Logo.png', url: 'http://www.snjallborgin.is/' },
   { image: 'utmessan.png', url: 'https://utmessan.is/' },
+  { image: 'mlh-logo-color.png', url: 'https://mlh.io/' },
 ];
 const reload = [
   { image: 'creditinfo.png', url: 'https://www.creditinfo.is/' },
   { image: 'dominos.png', url: 'https://www.dominos.is/' },
   { image: 'github.png', url: 'https://github.com/' },
-  { image: 'miracle.png', url: 'http://www.miracle.is/' },
+  { image: 'miracle.png', url: 'https://www.miracle.is/' },
 ];
 const restart = [
   { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
@@ -79,11 +80,12 @@ class sponsorImages extends Component {
   }
 
   render() {
+    const { sponsors } = this.props.translations;
     return (
       <div className="sponsor_current">
         <h2 className="sponsor__current--header">
           Re:bo
-          <span>o</span>t
+          <span>o</span>t <span> - {sponsors.rebootText} </span>
         </h2>
         <div className="sponsor__reboot" ref={this.imageContainer}>
           {reboot.map(item => {
@@ -101,7 +103,9 @@ class sponsorImages extends Component {
             <div key={i} />
           ))}
         </div>
-        <h2 className="sponsor__current--header">Re:start</h2>
+        <h2 className="sponsor__current--header">
+          Re:start <span> - {sponsors.restartText} </span>
+        </h2>
         <div className="sponsor__restart">
           {restart.map(item => {
             return (
@@ -118,7 +122,9 @@ class sponsorImages extends Component {
             <div key={i} />
           ))}
         </div>
-        <h2 className="sponsor__current--header">Re:load</h2>
+        <h2 className="sponsor__current--header">
+          Re:load <span> - {sponsors.reloadText} </span>{' '}
+        </h2>
         <div className="sponsor__reload">
           {reload.map(item => {
             return (

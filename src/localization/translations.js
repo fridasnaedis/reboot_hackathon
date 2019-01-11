@@ -63,8 +63,11 @@ module.exports = {
     },
     card: 'mynd hér',
     sponsors: {
-      content: 'Styrkja',
-      sponsors: 'Okkar styrktaraðilar',
+      content: 'Bakhjarlar',
+      sponsors: 'Bakhjarlar Reboot Hack',
+      rebootText: 'Samstarfsaðilar',
+      restartText: 'Styrktaraðilar',
+      reloadText: 'Styrktaraðilar',
       header: 'Hvernig getur þú hjálpað Reboot Hack að verða að veruleika?',
       tableHeader: 'Verðflokkar fyrir styrktar- og samstarfsaðila',
       table: {
@@ -123,19 +126,18 @@ module.exports = {
       details: {
         reload: {
           header:
-            'Re:load <span >- Hjálpaðu Reboot Hack að verða að veruleika! (ótakmörkuð pláss)</span>',
+            'Re:load <span >- Hjálpaðu Reboot Hack að verða að veruleika! </span>',
           main:
             'Í grunninn verður hægt að leggja til upphæð sem tryggir að nafn fyrirtækisins muni koma fram á völdu kynningar- og markaðsefni ásamt því að vera titluð sem samstarfsaðili. Matarkostnaður er stærsti liður viðburðarins og í Re:load flokknum ert þú að tryggja þann lið. Einnig verður hægt að styrkja sérstaklega verðlaun í formi efnisstyrks sem er hluti af heildarupphæð sem fyrirtækið leggur til.',
         },
         restart: {
-          header:
-            'Re:start <span>- taktu samstarfið skrefinu lengra! (5-8 pláss)</span>',
+          header: 'Re:start <span>- Taktu samstarfið skrefinu lengra! </span>',
           main:
             'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack.  Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna veitir fyrirtækið viðkomandi lið sérstaka viðurkenningu í formi verðlauna. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og formlegri verðlaunaathöfn viðburðins sem fer fram á UTmessunni í Hörpu þann 9. febrúar.',
         },
         reboot: {
           header:
-            'Re:bo<span>o</span>t <span >- taktu þetta alla leið! (max 2 pláss)</span>',
+            'Re:bo<span>o</span>t <span >- Taktu þetta alla leið! </span>',
           main:
             'Ásamt því að fá alla ávinninga Re:load og Re:start fá Re:boot samstarfsaðilar tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á verðlaunaathöfninni. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum. Annar ávinningur Re:boot samstarfsaðila er 30-45 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Þar gefst fyrirtækinu einnig tækifæri til þess að kynna sína helstu tækni og vörur fyrir mögulegu framtíðarstarfsfólki og eða viðskiptavinum. Helstu kostir þess að taka þetta alla leið með Reboot er að fyrirtækið fær sæti í dómnefnd og þar með hefur áhrif á áherslur og útkomu hackathon-sins. Fyrirtækið kemur jafnframt fram á öllu kynningar- og markaðsefni. Reboot Hack vill hvetja nemendur til starfsframa innan upplýsingatækni en hackathon eru stór hlekkur nýsköpunar innan upplýsingatæknigeirans og hvetjum við ykkur að leiða þá framþróun með okkur.',
         },
@@ -173,7 +175,7 @@ module.exports = {
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
         answer:
-          'Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi. Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun,  en vettvangur verður fyrir það á laugardagsmorgni, 2. febrúar. Gert er ráð fyrir að það sé að minnsta kosti einn aðili í liðinu sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd lausnarinnar. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum.',
+          'Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun (sem verður vettvangur fyrir á laugardagsmorgni) sé að minnsta kosti einn aðili sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd verkefnisins. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum. Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi.',
       },
       question5: {
         text: 'Af hverju varð Reboot Hack til?',
@@ -284,8 +286,11 @@ module.exports = {
     },
     card: 'image here',
     sponsors: {
-      content: 'Sponsor',
+      content: 'Sponsors',
       sponsors: 'Our sponsors',
+      rebootText: 'Partners',
+      restartText: 'Sponsors',
+      reloadText: 'Sponsors',
       header: 'How can you help Reboot Hack become a reality?',
       tableHeader: 'Sponsorship brackets',
       table: {
@@ -343,22 +348,16 @@ module.exports = {
       },
       details: {
         reload: {
-          header:
-            'Re:load <span >- Help Reboot Hack to become a reality! (no limit)</span>',
-          main:
-            "To begin with, it will be possible to provide an amount that ensures that the company's name will appear on selected promotional and marketing materials, as well as being titled as a sponsor. Food costs are the biggest item of the event and in the Re:load category you are helping us guaranteeing that they will be covered. Special prizes can also be sponsored in alternative forms which are included in the company's total amount.",
+          header: '',
+          main: '',
         },
         restart: {
-          header:
-            'Re:start <span >- take your sponsorship a step further! (5-8 slots)</span>',
-          main:
-            "We challenge companies to take it a step further by bringing technology and challenges to present at the hackathon for participants to use/resolve. We ask companies that bring technology and challenges to provide mentors to be on site at the event. Mentors attending will be required to be on site for the first day of the hackathon for hosting a 15-25 minute workshop and to be available for Reboot Hack participants. The company also provides a special price for the best use/solution of the proposed technology and/or challenge. That encourages participants to work with your technology and/or challenges, as well as getting to know the company and its services better. In the Re:start bracket, companies also get to distribute relevant marketing material to participants, as well as the possibility of reviewing the company's participation for speaking at the opening and award ceremonies.",
+          header: '',
+          main: '',
         },
         reboot: {
-          header:
-            'Re:bo<span>o</span>t <span >- take it all the way! (max 2)</span>',
-          main:
-            'In addition to all the benefits of Re:load and Re:start brackets Re:boot partners get to speak at the opening and closing ceremonies. This gives the company a chance to introduce its business briefly. Another benefit is the 30-45 minute extended slot for introducing the technology and challenges that the company brings to Reboot Hack. There, the company also has the opportunity to introduce its main technology and products to potential future employees and customers. The main advantage of taking it all the way with Reboot is that the company gets a seat in the jury, thus affecting the focus and outcome of the hackathon. The companies logo will also be featured on all promotional materials. Reboot Hack wants to encourage students to pursue a career in information technology, but hackathons are a major link to innovation in the IT industry, and we encourage you to lead those advances with us.',
+          header: '',
+          main: '',
         },
       },
       team: {
@@ -369,8 +368,7 @@ module.exports = {
       additionalinfo: {
         first:
           'The table above shows the benefits that each bracket entailes. Below are detailed descriptions of each bracket.',
-        second:
-          'If a company does not belong within any of the above price categories please contact the team. We will make every effort to find a solution so that you can help us make Reboot Hack a reality.',
+        second: '',
       },
     },
     faq: {
@@ -438,8 +436,7 @@ module.exports = {
       },
       question13: {
         text: 'How is the accessibility?',
-        answer:
-          'Our venue is accessible to everyone.',
+        answer: 'Our venue is accessible to everyone.',
       },
     },
     signedUp: 'Thanks for signing up',
