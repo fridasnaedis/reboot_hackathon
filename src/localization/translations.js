@@ -366,8 +366,7 @@ module.exports = {
           'A text about how awesome the team is and why you should sponsor us. Very convincing fyi.',
       },
       additionalinfo: {
-        first:
-          'The table above shows the benefits that each bracket entailes. Below are detailed descriptions of each bracket.',
+        first: 'The table above shows the benefits that each bracket entailes.',
         second: '',
       },
     },

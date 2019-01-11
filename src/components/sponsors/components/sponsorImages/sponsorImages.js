@@ -20,6 +20,8 @@ const reload = [
   { image: 'dominos.png', url: 'https://www.dominos.is/' },
   { image: 'github.png', url: 'https://github.com/' },
   { image: 'miracle.png', url: 'https://www.miracle.is/' },
+  { image: 'ueno_logo.png', url: 'https://www.ueno.co/' },
+  { image: 'gangverk.png', url: 'http://www.gangverk.is/' },
 ];
 const restart = [
   { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
