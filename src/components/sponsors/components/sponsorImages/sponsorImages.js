@@ -10,7 +10,6 @@ const reboot = [
     image: 'hi-logo_vertical_transparent2-black-is.png',
     url: 'https://www.hi.is/',
   },
-  { image: 'sky.png', url: 'https://www.sky.is/' },
   { image: 'Snjallborgin-RVK-Logo.png', url: 'http://www.snjallborgin.is/' },
   { image: 'utmessan.png', url: 'https://utmessan.is/' },
   { image: 'mlh-logo-color.png', url: 'https://mlh.io/' },
@@ -18,15 +17,16 @@ const reboot = [
 const reload = [
   { image: 'creditinfo.png', url: 'https://www.creditinfo.is/' },
   { image: 'dominos.png', url: 'https://www.dominos.is/' },
-  { image: 'github.png', url: 'https://github.com/' },
   { image: 'miracle.png', url: 'https://www.miracle.is/' },
   { image: 'ueno_logo.png', url: 'https://www.ueno.co/' },
   { image: 'gangverk.png', url: 'http://www.gangverk.is/' },
+  { image: 'valitor.png', url: 'https://www.valitor.is/' },
 ];
 const restart = [
   { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
   { image: 'menandmice.jpg', url: 'https://www.menandmice.com/' },
   { image: 'microsoft.png', url: 'https://www.microsoft.com/is-is' },
+  { image: 'github.png', url: 'https://github.com/' },
 ];
 
 class sponsorImages extends Component {
