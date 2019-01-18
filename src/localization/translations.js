@@ -473,11 +473,6 @@ module.exports = {
         answer:
           'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',
       },
-      question17: {
-        text: 'Hver á höfundarréttinn á lausnunum?',
-        answer:
-          'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
-      },
     },
     signedUp: 'Thanks for signing up',
   },

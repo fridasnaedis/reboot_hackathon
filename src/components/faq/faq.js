@@ -72,9 +72,6 @@ class Faq extends Component {
         {faq.question21 && (
           <Question text={faq.question21.text} answer={faq.question21.answer} />
         )}
-        {faq.question21 && (
-          <Question text={faq.question21.text} answer={faq.question21.answer} />
-        )}
         {faq.question22 && (
           <Question text={faq.question22.text} answer={faq.question22.answer} />
         )}
