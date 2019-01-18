@@ -165,12 +165,12 @@ module.exports = {
       question2: {
         text: 'Fyrir hverja er þetta?',
         answer:
-          'Reboot Hack er fyrir alla háskólanema, hvort sem um er að ræða nema  á Íslandi eða í öðrum löndum. Háskólanemar eru þeir nemendur sem eru skráðir í háskóla og eða hafa nýlega lokið háskólanámi. Það er jafnframt ekki gerð krafa um að þátttakendur séu í tæknitengdu námi. Það sem skiptir meira máli er að þú hafir áhuga á sköpunarferlinu bakvið nýja tækni. Hvort sem það er að forrita, skipuleggja eða hanna.',
+          'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.  Aðal áherslan er ekki lögð á niðurstöðurnar heldur ferlið sjálft. Markmiðið er fyrst og fremst skapandi og lærdómsrík reynsla.',
       },
       question3: {
         text: 'Hvar og hvenær fer Reboot Hack fram?',
         answer:
-          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík laugardaginn 2.febrúar og sunnudaginn 3.febrúar 2019. Formleg verðlaunaathöfn fer fram á UTmessunni í Hörpu laugardaginn 9. febrúar. Nánari dagskrá verður auglýst síðar.',
+          'Reboot Hack fer fram á neðri hæð Háskólatorgs í Háskóla Íslands Sæmundargötu 4, 101 Reykjavík  frá kl 9 laugardaginn 2.febrúar til eftirmiðdegis á sunnudaginn 3.febrúar 2019. Uppskeruhátíð Reboot Hack fer síðan fram helgina eftir á  UTmessunni í Hörpu laugardaginn 9. febrúar í Kaldalóni frá 10 - 12. Nánari dagskrá verður tilkynnt þegar nær dregur. ',
       },
       question4: {
         text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -180,7 +180,7 @@ module.exports = {
       question5: {
         text: 'Af hverju varð Reboot Hack til?',
         answer:
-          'Reboot er fyrsta hackathon á Íslandi skipulagt af nemendum fyrir nemendur. Það sem gerir þetta hackathon sérstakt er að mesta áherslan er ekki lögð á niðurstöðurnar heldur ferlið sjálft. Markmiðið er fyrst og fremst skapandi og lærdómsrík reynsla.',
+          'Helsti hvatinn að viðburðinum er sá að við viljum styrkja og skapa ríkari hakkaþonmenningu á Íslandi og í leiðinni skilgreina það sem tól fyrir framúrskarandi nemendur á öllum fræðasviðum til þess að skapa eitthvað frá grunni. Hingað til hefur hakkaþonmenningin átt heima inni í fyrirtækjum og hjá stofnunum og ekki enn sérstaklega komið til móts við nemendur. Við viljum skapa þetta á okkar heimavelli þannig að Reboot Hack verði alltaf óháð og með hagsmuni nemenda í forgrunni.',
       },
       question6: {
         text: 'Hvað ef ég er ekki með, eða vil ekki vera í teymi?',
@@ -195,7 +195,7 @@ module.exports = {
       question8: {
         text: 'Hvað með mat og drykk, þarf ég að koma með nesti?',
         answer:
-          'Það verður boðið upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina á milli máltíða.',
+          'Það verður boðið frítt upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina á milli máltíða. Við hvetjum þig aftur á móti til þess að mæta með fjölnota vatnsflösku til þess að fylla á.',
       },
       question9: {
         text: 'Má byrja að vinna með tækni og áskoranir fyrir hackathon-ið?',
@@ -215,12 +215,32 @@ module.exports = {
       question12: {
         text: 'Hvað á ég að taka með mér?',
         answer:
-          'Persónuskilríki, fartölvu, hleðslutæki, svefnpoka (ef þú ætlar að leggja þig á staðnum) ásamt hreinlætisvörum til að fríska upp á sig í gegnum helgina!',
+          'Persónuskilríki, fartölvu, hleðslutæki, fjölnota vatnsflösku, svefnpoka (ef þú ætlar að leggja þig á staðnum) ásamt hreinlætisvörum til að fríska upp á sig í gegnum helgina!',
       },
       question13: {
         text: 'Hvernig er aðgengi á staðnum?',
         answer:
           'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaathöfn Reboot Hack fer fram.',
+      },
+      question14: {
+        text: 'Hvað er í verðlaun?',
+        answer:
+          'Spennandi tæknitengd verðlaun verða gefin fyrir 1.-3 sæti ásamt öðrum flokkum sem verða auglýstir á facebook viðburði hackathonsins og hér. Fyrirtæki munu einnig gefa verðlaun fyrir bestu lausn á sínum áskorunum/tækni en ítarlegri upplýsingar um þau koma einnig inn á facebook viðburð Reboot Hack og hér þegar nær dregur. \n Við getum með stolti kynnt að partur af verðlaunum fyrir fyrsta sætið eru miðar fyrir alla í vinningsliðinu á ráðstefnudag UTmessunar sem fer fram föstudaginn, 8.febrúar.',
+      },
+      question15: {
+        text: 'Hvað er ég að fara gera?',
+        answer:
+          'Þú færð tækifæri til þess að leysa áskoranir eða nýta tækni frá fyrirtækjum. Frá því að tæknivinnan byrjar og þangað til að afurð er skilað, vinnur þú ásamt 2-5 manna liði að skapa lausn og frumgerð af tæknitengdri lausn með aðstoð frá sérhæfðum mentorum. Kóðanum sjálfum er skilað inn á sérstaka síðu eftir vinnulotuna sem keyrir í gegnum nóttina. Eftir að vinnulotunni lýkur fær teymið þitt tækifæri til þess að kynna stuttlega afurðina og mun sérstök Dómnefnd dæma frammistöðu og lausnina sjálfa.',
+      },
+      question16: {
+        text: 'Hvernig verður dæmt? ',
+        answer:
+          'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. Þau verðlaun sem eru sérstaklega veitt fyrir bestu nýtingu á tækni og eða launs á áskorun eru valin af útsendurum hvers fyrirtækis fyrir sig. ',
+      },
+      question17: {
+        text: 'Hver á höfundarréttinn á lausnunum?',
+        answer:
+          'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
       },
     },
     signedUp: 'Takk fyrir að skrá þig',
@@ -376,7 +396,7 @@ module.exports = {
       question1: {
         text: 'What is a hackathon?',
         answer:
-          'Hackathons are not about “hacking” but creating. You can think of a Hackathon  as an invention marathon, where participants get space to learn, build and create. Students compete in a groups of maximum size of 5 people and work for over 24 hours to develop and build innovative technological solutions from scratch. Hackathons are a great opportunity for students to meet other students, learn new stuff and most of all create cool thing.',
+          'Hackathons are not about “hacking” but rather creating. You can think of a Hackathon  as an invention marathon where participants get space to learn, build and create. Students compete in groups, each group can contain maxof maximum size of 5 and work for over 24 hours to develop and build innovative technological solutions from scratch.  Hackathons are a great opportunity for students to meet other students, learn new stuff and most of all create innovative and exciting technology.',
       },
       question2: {
         text: 'Why Reboot?',
@@ -431,11 +451,32 @@ module.exports = {
       question12: {
         text: 'What should I bring?',
         answer:
-          'A valid ID for admission, your laptop and charger, sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend! ',
+          'A valid ID for admission, your laptop and charger, plug adapter if you are coming from the UK or US, refillable water bottle (tap water in Iceland is the best), sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend! ',
       },
       question13: {
         text: 'How is the accessibility?',
         answer: 'Our venue is accessible to everyone.',
+      },
+
+      question19: {
+        text: 'Is there anything required to enter?',
+        answer:
+          "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website and confirming your MLH account. The hackathon is open to every university student all around the world.",
+      },
+      question20: {
+        text: 'What about accommodation in Iceland?',
+        answer:
+          'We unfortunately do not have any free accommodation to offer but we can help you with booking if needed. During the night there will be a sleeping space at the venue where you can take a quick nap, we recommend bringing a sleeping bag to be more comfortable.',
+      },
+      question21: {
+        text: 'What about sleeping?? ',
+        answer:
+          'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',
+      },
+      question17: {
+        text: 'Hver á höfundarréttinn á lausnunum?',
+        answer:
+          'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
       },
     },
     signedUp: 'Thanks for signing up',
