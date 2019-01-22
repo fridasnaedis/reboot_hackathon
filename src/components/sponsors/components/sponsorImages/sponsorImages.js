@@ -21,6 +21,8 @@ const reload = [
   { image: 'ueno_logo.png', url: 'https://www.ueno.co/' },
   { image: 'gangverk.png', url: 'http://www.gangverk.is/' },
   { image: 'valitor.png', url: 'https://www.valitor.is/' },
+  { image: 'crankwheel.png', url: 'https://www.crankwheel.com/' },
+  { image: 'tern.png', url: 'https://www.tern.is' },
 ];
 const restart = [
   { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
