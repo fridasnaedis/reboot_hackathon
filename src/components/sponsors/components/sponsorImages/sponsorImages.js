@@ -16,7 +16,6 @@ const reboot = [
 ];
 const reload = [
   { image: 'creditinfo.png', url: 'https://www.creditinfo.is/' },
-  { image: 'dominos.png', url: 'https://www.dominos.is/' },
   { image: 'miracle.png', url: 'https://www.miracle.is/' },
   { image: 'ueno_logo.png', url: 'https://www.ueno.co/' },
   { image: 'gangverk.png', url: 'http://www.gangverk.is/' },
@@ -31,6 +30,13 @@ const restart = [
   { image: 'github.png', url: 'https://github.com/' },
 ];
 
+const other = [
+  { image: 'dominos.png', url: 'https://www.dominos.is/' },
+  { image: 'CBK_logo.png', url: 'https://www.cbk.is/' },
+  //{ image: 'culiacan.png', url: 'https://www.culiacan.is/' },
+  { image: 'rubin_logo.jpg', url: 'https://ojk.is/' },
+];
+
 class sponsorImages extends Component {
   constructor(props) {
     super(props);
@@ -38,6 +44,7 @@ class sponsorImages extends Component {
     this.rebootImage = React.createRef();
     this.restartImage = React.createRef();
     this.reloadImage = React.createRef();
+    this.otherImage = React.createRef();
 
     this.state = {
       reboot: 0,
@@ -47,7 +54,13 @@ class sponsorImages extends Component {
   }
 
   updateContainerCount() {
-    const { imageContainer, rebootImage, restartImage, reloadImage } = this;
+    const {
+      imageContainer,
+      rebootImage,
+      restartImage,
+      reloadImage,
+      otherImage,
+    } = this;
     const margin = 30;
 
     function helper(current, length) {
@@ -69,6 +82,7 @@ class sponsorImages extends Component {
       reboot: helper(rebootImage.current, reboot.length),
       restart: helper(restartImage.current, restart.length),
       reload: helper(reloadImage.current, reload.length),
+      other: helper(otherImage.current, other.length),
     });
   }
 
@@ -142,6 +156,25 @@ class sponsorImages extends Component {
             );
           })}
           {[...Array(this.state.reload)].map((x, i) => (
+            <div key={i} />
+          ))}
+        </div>
+        <h2 className="sponsor__current--header">
+          <span> {sponsors.otherText} </span>
+        </h2>
+        <div className="sponsor__other" ref={this.imageContainer}>
+          {other.map(item => {
+            return (
+              <div ref={this.otherImage} key={`${item.image}`}>
+                <SponsorImage
+                  src={`${baseurl}/images/other/${item.image}`}
+                  alt="Other"
+                  url={item.url}
+                />
+              </div>
+            );
+          })}
+          {[...Array(this.state.other)].map((x, i) => (
             <div key={i} />
           ))}
         </div>

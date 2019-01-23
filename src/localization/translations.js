@@ -68,6 +68,7 @@ module.exports = {
       rebootText: 'Samstarfsaðilar',
       restartText: 'Styrktaraðilar',
       reloadText: 'Styrktaraðilar',
+      otherText: 'Aðrir styrktaraðilar',
       header: 'Hvernig getur þú hjálpað Reboot Hack að verða að veruleika?',
       tableHeader: 'Verðflokkar fyrir styrktar- og samstarfsaðila',
       table: {
@@ -311,6 +312,7 @@ module.exports = {
       rebootText: 'Partners',
       restartText: 'Sponsors',
       reloadText: 'Sponsors',
+      otherText: 'Other sponsors',
       header: 'How can you help Reboot Hack become a reality?',
       tableHeader: 'Sponsorship brackets',
       table: {

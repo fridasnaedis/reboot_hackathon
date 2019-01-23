@@ -29,6 +29,12 @@
   margin: 15px;
 }
 
+.sponsor__content .sponsor_current .sponsor__other div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+}
+
 @media screen and (max-width: 800px) {
   .sponsor__content .sponsor_current .sponsor__reboot div {
     width: 120px;
