@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import ScrollToTop from './components/scrollToTop';
 import rootReducer from './reducers';
-import registerServiceWorker from './registerServiceWorker';
+import { unregister as unregisterServiceWorker } from './registerServiceWorker'
 
 export const store = createStore(rootReducer, applyMiddleware(thunk));
 
@@ -24,7 +24,8 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
+
+unregisterServiceWorker();
 
 // Ping the server
 const wakeServer = async () => {
