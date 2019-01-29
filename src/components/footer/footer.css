@@ -40,7 +40,7 @@
   }
 
   .footer .footer--sponsors-img img {
-    /* height: 90px; */
+    /*max-height: 90px;*/
     /* width: 100%; */
   }
 }

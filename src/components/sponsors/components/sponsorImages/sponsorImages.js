@@ -33,8 +33,9 @@ const restart = [
 const other = [
   { image: 'dominos.png', url: 'https://www.dominos.is/' },
   { image: 'CBK_logo.png', url: 'https://www.cbk.is/' },
-  //{ image: 'culiacan.png', url: 'https://www.culiacan.is/' },
   { image: 'rubin_logo.jpg', url: 'https://ojk.is/' },
+  { image: 'redbull.png', url: 'https://olgerdin.is/' },
+  { image: 'culiacan.png', url: 'https://www.culiacan.is/' },
 ];
 
 class sponsorImages extends Component {

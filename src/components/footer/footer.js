@@ -47,6 +47,18 @@ class Footer extends Component {
           </div>
           <div className="footer--sponsors-img">
             <a
+              href="http://www.snjallborgin.is/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                src={`${baseurl}/images/snjallborg.png`}
+                alt="Digital Reykjavik logo"
+              />
+            </a>
+          </div>
+          <div className="footer--sponsors-img">
+            <a
               href="https://mlh.io/seasons/eu-2019/events"
               rel="noopener noreferrer"
               target="_blank"
