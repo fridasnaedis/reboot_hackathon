@@ -10,6 +10,7 @@ class Navbar extends Component {
   render() {
     const { REACT_APP_MLH_CLIENT_ID, REACT_APP_MLH_REDIRECT_URL } = process.env;
     const { translations } = this.props;
+    const { navbar } = translations;
     return (
       <div className="navbar">
         <div className="container">
@@ -27,6 +28,14 @@ class Navbar extends Component {
             </Link>
           </div>
           <div className="navbar--item navbar__right">
+            <a
+              className="button"
+              href={navbar.schedule.link}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {navbar.schedule.text}
+            </a>
             <Link className="button" to={`${baseurl}/faq`}>
               {translations.faq.content}
             </Link>
