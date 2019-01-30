@@ -94,7 +94,26 @@ class Footer extends Component {
             )}
             <div className="footer-copy-text">{this.state.copied}</div>
           </div>
-
+          <div className="footer--social">
+            <a
+              href="https://www.facebook.com/reboothackiceland/"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="fa fa-facebook-square"
+            />
+            <a
+              href="https://www.facebook.com/pall.a.bjornsson"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="fa fa-instagram"
+            />
+            <a
+              href="https://www.linkedin.com/company/reboot-hack-iceland/"
+              rel="noopener noreferrer"
+              target="_blank"
+              class="fa fa-linkedin-square"
+            />
+          </div>
           <a
             href="https://github.com/KetillG/simple_hackathon"
             rel="noopener noreferrer"

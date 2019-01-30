@@ -103,3 +103,42 @@
 .footer .footer--info img {
   padding-top: 10px;
 }
+
+.footer .footer--social {
+  margin-right: 1px;
+}
+
+.footer .footer--social a {
+  margin-left: 7px;
+  margin-right: 7px;
+
+  font-size: 3em;
+  height: 40px;
+  width: 38px;
+  border-radius: 14px;
+}
+
+.footer .footer--social a::before {
+  top: -4px;
+  left: -2px;
+  position: relative;
+}
+
+/* Facebook */
+.footer .footer--social .fa-facebook-square {
+  background: white;
+  color: #3b5998;
+}
+
+/* Instagram */
+.footer .footer--social .fa-instagram {
+  background: white;
+  color: #3f729b;
+  /* font-size: 3.1em; */
+}
+
+/* LinkedIn */
+.footer .footer--social .fa-linkedin-square {
+  background: white;
+  color: #0976b4;
+}
