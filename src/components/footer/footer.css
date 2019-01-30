@@ -14,16 +14,25 @@
 }
 
 .footer .footer--sponsors .footer--sponsors-img {
-  /* max-height: 100px; */
-  margin: 2%;
+  height: 20vw;
+  max-height: 100px;
+  margin: 4%;
   padding: 0;
-  width: 29%;
+  width: 25%;
   /* max-width: 200px; */
+}
+
+.footer .footer--sponsors .footer--sponsors-img a {
+  height: 100%;
+  width: 100%;
 }
 
 .footer .footer--sponsors-img img {
   /* max-height: 90px; */
+  height: 100%;
   width: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 
 @media screen and (min-width: 470px) {
@@ -33,9 +42,11 @@
 
   .footer .footer--sponsors .footer--sponsors-img {
     /* max-height: 100px; */
+    height: 10vw;
     display: flex;
     align-items: flex-end;
     width: 15%;
+    margin: 2%;
     /* max-width: 200px; */
   }
 
