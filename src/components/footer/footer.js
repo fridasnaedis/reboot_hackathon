@@ -71,48 +71,50 @@ class Footer extends Component {
           </div>
         </div>
         <div className="footer--info">
-          <div className="footer--email">
-            {/* Clipboard handler*/ 'clipboard' in navigator && (
-              <button
-                onClick={() => {
-                  navigator.clipboard.writeText(this.state.email);
-                  this.setState(state => ({
-                    copied: 'Copied!',
-                  }));
-                  setTimeout(
-                    function() {
-                      this.setState(state => ({
-                        copied: 'Click to copy',
-                      }));
-                    }.bind(this),
-                    3000
-                  );
-                }}
-              >
-                <p>reboothackiceland@gmail.com</p>
-              </button>
-            )}
-            <div className="footer-copy-text">{this.state.copied}</div>
-          </div>
-          <div className="footer--social">
-            <a
-              href="https://www.facebook.com/reboothackiceland/"
-              rel="noopener noreferrer"
-              target="_blank"
-              class="fa fa-facebook-square"
-            />
-            <a
-              href="https://www.instagram.com/reboothackiceland/"
-              rel="noopener noreferrer"
-              target="_blank"
-              class="fa fa-instagram"
-            />
-            <a
-              href="https://www.linkedin.com/company/reboot-hack-iceland/"
-              rel="noopener noreferrer"
-              target="_blank"
-              class="fa fa-linkedin-square"
-            />
+          <div className="footer--contact">
+            <div className="footer--email">
+              {/* Clipboard handler*/ 'clipboard' in navigator && (
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText(this.state.email);
+                    this.setState(state => ({
+                      copied: 'Copied!',
+                    }));
+                    setTimeout(
+                      function() {
+                        this.setState(state => ({
+                          copied: 'Click to copy',
+                        }));
+                      }.bind(this),
+                      3000
+                    );
+                  }}
+                >
+                  <p>reboothackiceland@gmail.com</p>
+                </button>
+              )}
+              <div className="footer-copy-text">{this.state.copied}</div>
+            </div>
+            <div className="footer--social">
+              <a
+                href="https://www.facebook.com/reboothackiceland/"
+                rel="noopener noreferrer"
+                target="_blank"
+                class="fa fa-facebook"
+              />
+              <a
+                href="https://www.instagram.com/reboothackiceland/"
+                rel="noopener noreferrer"
+                target="_blank"
+                class="fa fa-instagram"
+              />
+              <a
+                href="https://www.linkedin.com/company/reboot-hack-iceland/"
+                rel="noopener noreferrer"
+                target="_blank"
+                class="fa fa-linkedin"
+              />
+            </div>
           </div>
           <a
             href="https://github.com/KetillG/simple_hackathon"
