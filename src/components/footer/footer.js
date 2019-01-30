@@ -109,20 +109,26 @@ class Footer extends Component {
                 href="https://www.facebook.com/reboothackiceland/"
                 rel="noopener noreferrer"
                 target="_blank"
-                class="fa fa-facebook"
-              />
+                className="fa fa-facebook"
+              >
+                <span>Reboot Hack Facebook</span>
+              </a>
               <a
                 href="https://www.instagram.com/reboothackiceland/"
                 rel="noopener noreferrer"
                 target="_blank"
-                class="fa fa-instagram"
-              />
+                className="fa fa-instagram"
+              >
+                <span>Reboot Hack Instagram</span>
+              </a>
               <a
                 href="https://www.linkedin.com/company/reboot-hack-iceland/"
                 rel="noopener noreferrer"
                 target="_blank"
-                class="fa fa-linkedin"
-              />
+                className="fa fa-linkedin"
+              >
+                <span>Reboot Hack LinkedIn</span>
+              </a>
             </div>
           </div>
           <a
