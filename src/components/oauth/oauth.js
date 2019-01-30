@@ -16,7 +16,6 @@ class Oauth extends Component {
   // }
 
   componentWillMount() {
-    console.log(this.props.history);
     this.props.history.replace('/signedUp');
   }
 
