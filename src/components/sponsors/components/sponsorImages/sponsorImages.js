@@ -36,6 +36,9 @@ const other = [
   { image: 'rubin_logo.jpg', url: 'https://ojk.is/' },
   { image: 'redbull.png', url: 'https://olgerdin.is/' },
   { image: 'culiacan.png', url: 'https://www.culiacan.is/' },
+  { image: 'hostelling.png', url: 'https://www.hihostels.com/' },
+  { image: 'seglagerdin.png', url: 'https://www.seglagerdin.is/' },
+
 ];
 
 class sponsorImages extends Component {
