@@ -102,7 +102,7 @@ class Footer extends Component {
               class="fa fa-facebook-square"
             />
             <a
-              href="https://www.facebook.com/pall.a.bjornsson"
+              href="https://www.instagram.com/reboothackiceland/"
               rel="noopener noreferrer"
               target="_blank"
               class="fa fa-instagram"
