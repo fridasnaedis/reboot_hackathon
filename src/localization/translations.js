@@ -13,6 +13,11 @@ module.exports = {
     navbar: {
       left: 'reBoot',
       right: 'Text hægri',
+      schedule: {
+        text: 'Dagskrá',
+        link:
+          'https://www.facebook.com/reboothackiceland/photos/pcb.803907999970995/1659609024338741/?type=3&theater',
+      },
     },
     home: {
       banner: 'Borði. Tölvusnápun eftir:',
@@ -260,6 +265,11 @@ module.exports = {
     navbar: {
       left: 'reBoot',
       right: 'Text on right',
+      schedule: {
+        text: 'Schedule',
+        link:
+          'https://www.facebook.com/reboothackiceland/photos/pcb.803907999970995/1659609037672073/?type=3&theater',
+      },
     },
     home: {
       banner: 'Banner. Hack in:',

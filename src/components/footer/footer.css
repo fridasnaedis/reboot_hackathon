@@ -89,17 +89,21 @@
   transition: color 0.2s ease;
 }
 
-@media screen and (min-width: 470px) {
+.footer .footer--social a span {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
   .footer .footer--sponsors {
-    max-width: 730px;
+    max-width: 950px;
   }
 
   .footer .footer--sponsors .footer--sponsors-img {
     height: 10vw;
     display: flex;
     align-items: flex-end;
-    width: 15%;
-    margin: 2%;
+    width: 14.5%;
+    margin: 1%;
   }
 
   .footer .footer--contact {
