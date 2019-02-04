@@ -27,6 +27,7 @@ const restart = [
   { image: 'islandsbanki.png', url: 'https://www.islandsbanki.is/' },
   { image: 'menandmice.jpg', url: 'https://www.menandmice.com/' },
   { image: 'microsoft.png', url: 'https://www.microsoft.com/is-is' },
+   { image: 'stafraentisl.png', url: 'https://www.linkedin.com/company/digitaliceland/' },
   { image: 'github.png', url: 'https://github.com/' },
 ];
 
