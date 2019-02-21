@@ -17,6 +17,10 @@ class Home extends Component {
       <div>
         <Intro />
         <Detail
+          header={home.detail.fourth.header}
+          main={home.detail.fourth.main}
+        />
+        <Detail
           header={home.detail.first.header}
           main={home.detail.first.main}
         />
@@ -30,11 +34,8 @@ class Home extends Component {
           header={home.detail.third.header}
           main={home.detail.third.main}
         />
-        {/* <div className="info__later">
-          <p>{home.detail.fourth.main}</p>
-        </div> */}
         <Info />
-        <Register />
+        {/* <Register /> */}
       </div>
     );
   }

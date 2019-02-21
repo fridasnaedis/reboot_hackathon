@@ -43,12 +43,12 @@ class Navbar extends Component {
               {translations.sponsors.content}
             </Link>
             <LanguageButton />
-            <a
+            {/* <a
               className="button button__register"
               href={`https://my.mlh.io/oauth/authorize?client_id=${REACT_APP_MLH_CLIENT_ID}&redirect_uri=${REACT_APP_MLH_REDIRECT_URL}&response_type=token`}
             >
               {translations.home.register.register}
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

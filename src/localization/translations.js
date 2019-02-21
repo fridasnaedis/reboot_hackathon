@@ -57,8 +57,8 @@ module.exports = {
             'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Á hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.  Teymið á bakvið Reboot Hack  eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands sem hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins.',
         },
         fourth: {
-          header: '',
-          main: 'Upplýsingar um skráningu verða tilkynntar síðar.',
+          header: 'Reboot Hack 2019 er nú lokið',
+          main: 'Takk kærlega fyrir að taka þátt í að gera þetta að veruleika!',
         },
       },
       register: {
@@ -306,8 +306,9 @@ module.exports = {
             'The hackathon is called “Reboot Hack” and the name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s team  are three computer science and industrial engineering students at the University of Iceland. They all have experience in student associations as well as other organizational activities.',
         },
         fourth: {
-          header: '',
-          main: 'Information on registration will be announced later.',
+          header: 'Reboot Hack has ended for 2019 ',
+          main:
+            'Huge thanks to all our participants, sponsors, mentors and volunteers!',
         },
       },
       register: {
