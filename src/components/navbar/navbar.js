@@ -8,9 +8,9 @@ const baseurl = process.env.REACT_APP_SUB_URL;
 
 class Navbar extends Component {
   render() {
-    const { REACT_APP_MLH_CLIENT_ID, REACT_APP_MLH_REDIRECT_URL } = process.env;
+    // const { REACT_APP_MLH_CLIENT_ID, REACT_APP_MLH_REDIRECT_URL } = process.env;
     const { translations } = this.props;
-    const { navbar } = translations;
+    // const { navbar } = translations;
     return (
       <div className="navbar">
         <div className="container">
@@ -28,14 +28,14 @@ class Navbar extends Component {
             </Link>
           </div>
           <div className="navbar--item navbar__right">
-            <a
+            {/* <a
               className="button"
               href={navbar.schedule.link}
               rel="noopener noreferrer"
               target="_blank"
             >
               {navbar.schedule.text}
-            </a>
+            </a> */}
             <Link className="button" to={`${baseurl}/faq`}>
               {translations.faq.content}
             </Link>

@@ -132,7 +132,7 @@ class Footer extends Component {
             </div>
           </div>
           <a
-            href="https://github.com/KetillG/simple_hackathon"
+            href="https://github.com/fridasnaedis/reboot_hackathon"
             rel="noopener noreferrer"
             target="_blank"
           >

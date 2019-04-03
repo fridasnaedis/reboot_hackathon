@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Intro from './components/intro';
 import Info from './components/info';
 import Detail from './components/detail';
-import Register from './components/register';
+// import Register from './components/register';
 import FillerImage from '../fillerImage';
 import Translate from '../translate';
 

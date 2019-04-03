@@ -96,7 +96,7 @@ module.exports = {
         r4: {
           title: 'Leggja fram tækni og áskoranir',
           info:
-            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því að leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu fyrir þátttakendur að nýta og eða leysa. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna fær viðkomandi lið sérstaka viðurkenningu í formi verðlauna sem fyrirtækið veitir. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) ',
+            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því að leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu fyrir þátttakendur að nýta og eða leysa. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna fær viðkomandi lið sérstaka viðurkenningu í formi verðlauna sem fyrirtækið veitir. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.)',
         },
         r5: {
           title: 'Mentorar frá fyrirtæki á viðburði',
@@ -298,7 +298,7 @@ module.exports = {
         second: {
           header: 'Hackathon',
           main:
-            'Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where participants get space to learn, build and create. <br> <br>  Students compete in groups and work for over 24 hours to develop an idea/technological solution from scratch. The product can be a website, small application or any other technology.  Reboot Hack is organized by students for students and is completely free to attend',
+            'Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where participants get space to learn, build and create. <br> <br>  Students compete in groups and work for over 24 hours to develop an idea/technological solution from scratch. The product can be a website, small application or any other technology.  Reboot Hack is organized by students for students and is completely free to attend.',
         },
         third: {
           header: 'Reboot Hack',
