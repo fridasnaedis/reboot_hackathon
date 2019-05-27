@@ -40,7 +40,6 @@ class Card extends Component {
           <a href={text.link} rel="noopener noreferrer" target="_blank">
             <h3 className="card__name">{text.name}</h3>
           </a>
-          <div className="card__info">{text.info}</div>
         </div>
       </div>
     );

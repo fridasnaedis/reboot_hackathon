@@ -1,0 +1,26 @@
+.reboot2020Signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reboot2020Signup a {
+  margin-top: -80px;
+  margin-bottom: 80px;
+
+  border: 1px solid #625892;
+  background-color: #625892;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  transition: 0.33s ease-in;
+}
+
+.reboot2020Signup a:hover {
+  color: #ffb30d;
+}
+
+.reboot2020Signup img {
+  margin-bottom: -30px;
+}

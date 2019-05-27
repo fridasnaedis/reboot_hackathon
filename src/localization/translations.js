@@ -22,8 +22,11 @@ module.exports = {
     home: {
       banner: 'Borði. Tölvusnápun eftir:',
       intro: 'Stórt Reboot Hack merki hér',
+      reboot2020Signup: {
+        signupText: 'Skráðu þig hér',
+      },
       people: {
-        title: 'Teymið',
+        title: 'Stofnendur',
         first: {
           name: 'Fríða Snædís Jóhannesdóttir',
           info: 'Forritun & grafík',
@@ -57,8 +60,10 @@ module.exports = {
             'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Á hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.  Teymið á bakvið Reboot Hack  eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands sem hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins.',
         },
         fourth: {
-          header: 'Reboot Hack 2019 er nú lokið',
-          main: 'Takk kærlega fyrir að taka þátt í að gera þetta að veruleika!',
+          header:
+            'Takk kærlega fyrir að taka þátt í að gera Reboot Hack 2019 að veruleika!',
+          main:
+            'Við leitum nú að metnaðarfullum háskólanemendum til þess að skipulegja Reboot Hack 2020!',
         },
       },
       register: {
@@ -274,8 +279,11 @@ module.exports = {
     home: {
       banner: 'Banner. Hack in:',
       intro: 'Big Reboot Hack logo here',
+      reboot2020Signup: {
+        signupText: 'Apply here',
+      },
       people: {
-        title: 'The Team',
+        title: 'The founders',
         first: {
           name: 'Fríða Snædís Jóhannesdóttir',
           info: 'Programming & graphics',
@@ -306,9 +314,10 @@ module.exports = {
             'The hackathon is called “Reboot Hack” and the name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s team  are three computer science and industrial engineering students at the University of Iceland. They all have experience in student associations as well as other organizational activities.',
         },
         fourth: {
-          header: 'Reboot Hack has ended for 2019 ',
+          header:
+            'Huge thanks to all our participants, sponsors, mentors and volunteers for helping us make Reboot Hack 2019 happen!',
           main:
-            'Huge thanks to all our participants, sponsors, mentors and volunteers!',
+            'We are looking for ambitious college students to plan Reboot Hack 2020',
         },
       },
       register: {

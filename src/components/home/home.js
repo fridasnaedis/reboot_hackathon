@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Intro from './components/intro';
 import Info from './components/info';
 import Detail from './components/detail';
+import Reboot2020Signup from './components/Reboot2020Signup';
 // import Register from './components/register';
 import FillerImage from '../fillerImage';
 import Translate from '../translate';
@@ -20,9 +21,11 @@ class Home extends Component {
           header={home.detail.fourth.header}
           main={home.detail.fourth.main}
         />
+        <Reboot2020Signup />
+        <FillerImage imageUrl={`${baseurl}/images/hack_image_7.jpg`} />
         <Detail
-          header={home.detail.first.header}
-          main={home.detail.first.main}
+          header={home.detail.third.header}
+          main={home.detail.third.main}
         />
         <FillerImage imageUrl={`${baseurl}/images/hi-kold.jpg`} />
         <Detail
@@ -31,8 +34,8 @@ class Home extends Component {
         />
         <FillerImage imageUrl={`${baseurl}/images/htnidri.jpg`} />
         <Detail
-          header={home.detail.third.header}
-          main={home.detail.third.main}
+          header={home.detail.first.header}
+          main={home.detail.first.main}
         />
         <Info />
         {/* <Register /> */}
