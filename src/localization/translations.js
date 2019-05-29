@@ -63,7 +63,7 @@ module.exports = {
           header:
             'Takk kærlega fyrir að taka þátt í að gera Reboot Hack 2019 að veruleika!',
           main:
-            'Við leitum nú að metnaðarfullum háskólanemendum til þess að skipulegja Reboot Hack 2020!',
+            'Við leitum nú að metnaðarfullum háskólanemendum til þess að skipuleggja Reboot Hack 2020!',
         },
       },
       register: {
@@ -74,7 +74,7 @@ module.exports = {
     card: 'mynd hér',
     sponsors: {
       content: 'Bakhjarlar',
-      sponsors: 'Bakhjarlar Reboot Hack',
+      sponsors: 'Bakhjarlar Reboot Hack 2018-2019',
       rebootText: 'Samstarfsaðilar',
       restartText: 'Styrktaraðilar',
       reloadText: 'Styrktaraðilar',
@@ -317,7 +317,7 @@ module.exports = {
           header:
             'Huge thanks to all our participants, sponsors, mentors and volunteers for helping us make Reboot Hack 2019 happen!',
           main:
-            'We are looking for ambitious college students to plan Reboot Hack 2020',
+            'We are looking for ambitious college students to plan Reboot Hack 2020!',
         },
       },
       register: {
@@ -328,7 +328,7 @@ module.exports = {
     card: 'image here',
     sponsors: {
       content: 'Sponsors',
-      sponsors: 'Our sponsors',
+      sponsors: 'Reboot Hack sponsors 2018-2019',
       rebootText: 'Partners',
       restartText: 'Sponsors',
       reloadText: 'Sponsors',
